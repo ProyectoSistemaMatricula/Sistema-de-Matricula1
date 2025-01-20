@@ -24,6 +24,9 @@ Partial Class Matricula
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Matricula))
         GroupBox1 = New GroupBox()
+        CheckedListBox1 = New CheckedListBox()
+        Label10 = New Label()
+        Label9 = New Label()
         Label8 = New Label()
         TextBox7 = New TextBox()
         DateTimePicker1 = New DateTimePicker()
@@ -31,6 +34,7 @@ Partial Class Matricula
         TextBox5 = New TextBox()
         TextBox4 = New TextBox()
         TextBox3 = New TextBox()
+        Label2 = New Label()
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
         Label7 = New Label()
@@ -38,7 +42,6 @@ Partial Class Matricula
         Label5 = New Label()
         Label4 = New Label()
         Label3 = New Label()
-        Label2 = New Label()
         Label1 = New Label()
         btnatras = New Button()
         btnnuevo = New Button()
@@ -46,18 +49,15 @@ Partial Class Matricula
         btnmodificar = New Button()
         btneliminar = New Button()
         DataGridView1 = New DataGridView()
-        Label9 = New Label()
-        Label10 = New Label()
-        TextBox8 = New TextBox()
-        CheckedListBox1 = New CheckedListBox()
+        ComboBox1 = New ComboBox()
         GroupBox1.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' GroupBox1
         ' 
+        GroupBox1.Controls.Add(ComboBox1)
         GroupBox1.Controls.Add(CheckedListBox1)
-        GroupBox1.Controls.Add(TextBox8)
         GroupBox1.Controls.Add(Label10)
         GroupBox1.Controls.Add(Label9)
         GroupBox1.Controls.Add(Label8)
@@ -84,6 +84,35 @@ Partial Class Matricula
         GroupBox1.TabIndex = 0
         GroupBox1.TabStop = False
         GroupBox1.Text = "Información del estudiante"
+        ' 
+        ' CheckedListBox1
+        ' 
+        CheckedListBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        CheckedListBox1.FormattingEnabled = True
+        CheckedListBox1.Location = New Point(506, 195)
+        CheckedListBox1.Name = "CheckedListBox1"
+        CheckedListBox1.Size = New Size(296, 26)
+        CheckedListBox1.TabIndex = 7
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Rockwell", 10.2F)
+        Label10.Location = New Point(408, 195)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(62, 20)
+        Label10.TabIndex = 17
+        Label10.Text = "Clases"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Rockwell", 10.2F)
+        Label9.Location = New Point(19, 195)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(71, 20)
+        Label9.TabIndex = 16
+        Label9.Text = "Carrera"
         ' 
         ' Label8
         ' 
@@ -140,6 +169,16 @@ Partial Class Matricula
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(246, 30)
         TextBox3.TabIndex = 9
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Rockwell", 10.2F)
+        Label2.Location = New Point(19, 81)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(81, 20)
+        Label2.TabIndex = 1
+        Label2.Text = "Nombres"
         ' 
         ' TextBox2
         ' 
@@ -205,16 +244,6 @@ Partial Class Matricula
         Label3.Size = New Size(92, 20)
         Label3.TabIndex = 2
         Label3.Text = "1°Apellido"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(19, 81)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(81, 20)
-        Label2.TabIndex = 1
-        Label2.Text = "Nombres"
         ' 
         ' Label1
         ' 
@@ -292,41 +321,13 @@ Partial Class Matricula
         DataGridView1.Size = New Size(783, 275)
         DataGridView1.TabIndex = 6
         ' 
-        ' Label9
+        ' ComboBox1
         ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Rockwell", 10.2F)
-        Label9.Location = New Point(19, 195)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(71, 20)
-        Label9.TabIndex = 16
-        Label9.Text = "Carrera"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Rockwell", 10.2F)
-        Label10.Location = New Point(408, 195)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(62, 20)
-        Label10.TabIndex = 17
-        Label10.Text = "Clases"
-        ' 
-        ' TextBox8
-        ' 
-        TextBox8.Location = New Point(143, 190)
-        TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(246, 30)
-        TextBox8.TabIndex = 18
-        ' 
-        ' CheckedListBox1
-        ' 
-        CheckedListBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        CheckedListBox1.FormattingEnabled = True
-        CheckedListBox1.Location = New Point(506, 195)
-        CheckedListBox1.Name = "CheckedListBox1"
-        CheckedListBox1.Size = New Size(296, 29)
-        CheckedListBox1.TabIndex = 7
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Location = New Point(143, 195)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(246, 31)
+        ComboBox1.TabIndex = 18
         ' 
         ' Matricula
         ' 
@@ -376,5 +377,5 @@ Partial Class Matricula
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents CheckedListBox1 As CheckedListBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
