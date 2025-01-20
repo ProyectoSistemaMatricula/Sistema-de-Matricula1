@@ -123,7 +123,7 @@ Partial Class PreMatricula
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(832, 786)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
@@ -134,8 +134,8 @@ Partial Class PreMatricula
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        FormBorderStyle = FormBorderStyle.None
         Name = "PreMatricula"
-        Text = "V"
         ResumeLayout(False)
         PerformLayout()
     End Sub
