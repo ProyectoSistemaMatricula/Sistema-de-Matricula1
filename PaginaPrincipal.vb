@@ -1,4 +1,5 @@
-﻿Public Class PaginaPrincipal
+﻿
+Public Class PaginaPrincipal
     Private Sub btnprematricula_Click(sender As Object, e As EventArgs) Handles btnprematricula.Click
         PreMatricula.Show()
         Me.Hide()
@@ -27,4 +28,6 @@
     Private Sub btnsalir_Click(sender As Object, e As EventArgs) Handles btnsalir.Click
         End
     End Sub
+
+
 End Class
