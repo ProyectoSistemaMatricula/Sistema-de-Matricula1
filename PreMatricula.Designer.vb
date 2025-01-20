@@ -114,7 +114,7 @@ Partial Class PreMatricula
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(271, 250)
+        TextBox3.Location = New Point(350, 250)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(201, 27)
         TextBox3.TabIndex = 9
