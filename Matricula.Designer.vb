@@ -24,6 +24,7 @@ Partial Class Matricula
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Matricula))
         GroupBox1 = New GroupBox()
+        ComboBox1 = New ComboBox()
         CheckedListBox1 = New CheckedListBox()
         Label10 = New Label()
         Label9 = New Label()
@@ -49,7 +50,8 @@ Partial Class Matricula
         btnmodificar = New Button()
         btneliminar = New Button()
         DataGridView1 = New DataGridView()
-        ComboBox1 = New ComboBox()
+        PrintDialog1 = New PrintDialog()
+        btnimprimir = New Button()
         GroupBox1.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -84,6 +86,14 @@ Partial Class Matricula
         GroupBox1.TabIndex = 0
         GroupBox1.TabStop = False
         GroupBox1.Text = "Información del estudiante"
+        ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Location = New Point(143, 195)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(246, 31)
+        ComboBox1.TabIndex = 18
         ' 
         ' CheckedListBox1
         ' 
@@ -321,19 +331,25 @@ Partial Class Matricula
         DataGridView1.Size = New Size(783, 275)
         DataGridView1.TabIndex = 6
         ' 
-        ' ComboBox1
+        ' PrintDialog1
         ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(143, 195)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(246, 31)
-        ComboBox1.TabIndex = 18
+        PrintDialog1.UseEXDialog = True
+        ' 
+        ' btnimprimir
+        ' 
+        btnimprimir.Image = CType(resources.GetObject("btnimprimir.Image"), Image)
+        btnimprimir.Location = New Point(763, 712)
+        btnimprimir.Name = "btnimprimir"
+        btnimprimir.Size = New Size(51, 47)
+        btnimprimir.TabIndex = 7
+        btnimprimir.UseVisualStyleBackColor = True
         ' 
         ' Matricula
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(832, 737)
+        ClientSize = New Size(832, 786)
+        Controls.Add(btnimprimir)
         Controls.Add(DataGridView1)
         Controls.Add(btneliminar)
         Controls.Add(btnmodificar)
@@ -378,4 +394,6 @@ Partial Class Matricula
     Friend WithEvents Label9 As Label
     Friend WithEvents CheckedListBox1 As CheckedListBox
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents PrintDialog1 As PrintDialog
+    Friend WithEvents btnimprimir As Button
 End Class
