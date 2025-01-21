@@ -20,11 +20,6 @@ Public Class PaginaPrincipal
         Me.Hide()
     End Sub
 
-    Private Sub btnclases_Click(sender As Object, e As EventArgs) Handles btnclases.Click
-        Clases.Show()
-        Me.Hide()
-    End Sub
-
     Private Sub btnsalir_Click(sender As Object, e As EventArgs) Handles btnsalir.Click
         End
     End Sub

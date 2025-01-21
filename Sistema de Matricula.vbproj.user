@@ -5,7 +5,7 @@
     <Compile Update="Carreras.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Clases.vb">
+    <Compile Update="Reporte.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Estudiantes.vb">

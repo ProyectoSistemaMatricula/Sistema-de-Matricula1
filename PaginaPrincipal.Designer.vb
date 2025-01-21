@@ -27,7 +27,6 @@ Partial Class PaginaPrincipal
         btnmatricula = New Button()
         btnestudiantes = New Button()
         btncarreras = New Button()
-        btnclases = New Button()
         PictureBox1 = New PictureBox()
         btnsalir = New Button()
         Label1 = New Label()
@@ -36,7 +35,6 @@ Partial Class PaginaPrincipal
         Label4 = New Label()
         Label5 = New Label()
         Label6 = New Label()
-        Label7 = New Label()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -70,20 +68,11 @@ Partial Class PaginaPrincipal
         ' btncarreras
         ' 
         btncarreras.Image = CType(resources.GetObject("btncarreras.Image"), Image)
-        btncarreras.Location = New Point(199, 403)
+        btncarreras.Location = New Point(338, 407)
         btncarreras.Name = "btncarreras"
         btncarreras.Size = New Size(172, 157)
         btncarreras.TabIndex = 3
         btncarreras.UseVisualStyleBackColor = True
-        ' 
-        ' btnclases
-        ' 
-        btnclases.Image = CType(resources.GetObject("btnclases.Image"), Image)
-        btnclases.Location = New Point(432, 403)
-        btnclases.Name = "btnclases"
-        btnclases.Size = New Size(172, 157)
-        btnclases.TabIndex = 4
-        btnclases.UseVisualStyleBackColor = True
         ' 
         ' PictureBox1
         ' 
@@ -158,28 +147,17 @@ Partial Class PaginaPrincipal
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        Label6.Location = New Point(240, 563)
+        Label6.Location = New Point(379, 567)
         Label6.Name = "Label6"
         Label6.Size = New Size(97, 23)
         Label6.TabIndex = 12
         Label6.Text = "CARRERAS"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        Label7.Location = New Point(484, 563)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(71, 23)
-        Label7.TabIndex = 13
-        Label7.Text = "CLASES"
         ' 
         ' PaginaPrincipal
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(832, 626)
-        Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(Label5)
         Controls.Add(Label4)
@@ -188,7 +166,6 @@ Partial Class PaginaPrincipal
         Controls.Add(Label1)
         Controls.Add(btnsalir)
         Controls.Add(PictureBox1)
-        Controls.Add(btnclases)
         Controls.Add(btncarreras)
         Controls.Add(btnestudiantes)
         Controls.Add(btnmatricula)
@@ -206,7 +183,6 @@ Partial Class PaginaPrincipal
     Friend WithEvents btnmatricula As Button
     Friend WithEvents btnestudiantes As Button
     Friend WithEvents btncarreras As Button
-    Friend WithEvents btnclases As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnsalir As Button
     Friend WithEvents Label1 As Label
@@ -215,5 +191,4 @@ Partial Class PaginaPrincipal
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
 End Class
