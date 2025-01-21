@@ -49,8 +49,16 @@ Partial Class Matricula
         btnmodificar = New Button()
         btneliminar = New Button()
         DataGridView1 = New DataGridView()
-        PrintDialog1 = New PrintDialog()
         btnimprimir = New Button()
+        ComboBox2 = New ComboBox()
+        ComboBox3 = New ComboBox()
+        ComboBox4 = New ComboBox()
+        ComboBox5 = New ComboBox()
+        ComboBox6 = New ComboBox()
+        Docente = New Label()
+        Label11 = New Label()
+        Label12 = New Label()
+        Label13 = New Label()
         GroupBox1.SuspendLayout()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -90,14 +98,14 @@ Partial Class Matricula
         ComboBox1.Location = New Point(92, 287)
         ComboBox1.Margin = New Padding(3, 2, 3, 2)
         ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(174, 23)
+        ComboBox1.Size = New Size(121, 23)
         ComboBox1.TabIndex = 18
         ' 
         ' Label10
         ' 
         Label10.AutoSize = True
         Label10.Font = New Font("Rockwell", 10.2F)
-        Label10.Location = New Point(315, 293)
+        Label10.Location = New Point(283, 293)
         Label10.Name = "Label10"
         Label10.Size = New Size(50, 17)
         Label10.TabIndex = 17
@@ -107,7 +115,7 @@ Partial Class Matricula
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Rockwell", 10.2F)
-        Label9.Location = New Point(27, 293)
+        Label9.Location = New Point(27, 287)
         Label9.Name = "Label9"
         Label9.Size = New Size(59, 17)
         Label9.TabIndex = 16
@@ -327,33 +335,124 @@ Partial Class Matricula
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.GridColor = SystemColors.HighlightText
         DataGridView1.Location = New Point(12, 363)
         DataGridView1.Margin = New Padding(3, 2, 3, 2)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(685, 253)
+        DataGridView1.Size = New Size(725, 253)
         DataGridView1.TabIndex = 6
-        ' 
-        ' PrintDialog1
-        ' 
-        PrintDialog1.UseEXDialog = True
         ' 
         ' btnimprimir
         ' 
         btnimprimir.Image = CType(resources.GetObject("btnimprimir.Image"), Image)
-        btnimprimir.Location = New Point(668, 534)
+        btnimprimir.Location = New Point(576, 233)
         btnimprimir.Margin = New Padding(3, 2, 3, 2)
         btnimprimir.Name = "btnimprimir"
         btnimprimir.Size = New Size(45, 35)
         btnimprimir.TabIndex = 7
         btnimprimir.UseVisualStyleBackColor = True
         ' 
+        ' ComboBox2
+        ' 
+        ComboBox2.FormattingEnabled = True
+        ComboBox2.Location = New Point(357, 292)
+        ComboBox2.Margin = New Padding(3, 2, 3, 2)
+        ComboBox2.Name = "ComboBox2"
+        ComboBox2.Size = New Size(140, 23)
+        ComboBox2.TabIndex = 18
+        ' 
+        ' ComboBox3
+        ' 
+        ComboBox3.FormattingEnabled = True
+        ComboBox3.Location = New Point(614, 287)
+        ComboBox3.Margin = New Padding(3, 2, 3, 2)
+        ComboBox3.Name = "ComboBox3"
+        ComboBox3.Size = New Size(123, 23)
+        ComboBox3.TabIndex = 18
+        ' 
+        ' ComboBox4
+        ' 
+        ComboBox4.FormattingEnabled = True
+        ComboBox4.Location = New Point(92, 325)
+        ComboBox4.Margin = New Padding(3, 2, 3, 2)
+        ComboBox4.Name = "ComboBox4"
+        ComboBox4.Size = New Size(121, 23)
+        ComboBox4.TabIndex = 18
+        ' 
+        ' ComboBox5
+        ' 
+        ComboBox5.FormattingEnabled = True
+        ComboBox5.Location = New Point(357, 325)
+        ComboBox5.Margin = New Padding(3, 2, 3, 2)
+        ComboBox5.Name = "ComboBox5"
+        ComboBox5.Size = New Size(140, 23)
+        ComboBox5.TabIndex = 18
+        ' 
+        ' ComboBox6
+        ' 
+        ComboBox6.FormattingEnabled = True
+        ComboBox6.Location = New Point(614, 325)
+        ComboBox6.Margin = New Padding(3, 2, 3, 2)
+        ComboBox6.Name = "ComboBox6"
+        ComboBox6.Size = New Size(123, 23)
+        ComboBox6.TabIndex = 18
+        ' 
+        ' Docente
+        ' 
+        Docente.AutoSize = True
+        Docente.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Docente.Location = New Point(525, 292)
+        Docente.Name = "Docente"
+        Docente.Size = New Size(68, 17)
+        Docente.TabIndex = 19
+        Docente.Text = "Docente"
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label11.Location = New Point(37, 326)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(32, 17)
+        Label11.TabIndex = 20
+        Label11.Text = "Dia"
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label12.Location = New Point(283, 328)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(42, 17)
+        Label12.TabIndex = 21
+        Label12.Text = "Hora"
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label13.Location = New Point(525, 328)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(83, 17)
+        Label13.TabIndex = 22
+        Label13.Text = "Modalidad"
+        ' 
         ' Matricula
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(728, 610)
+        ClientSize = New Size(749, 635)
+        Controls.Add(Label13)
+        Controls.Add(Label12)
+        Controls.Add(Label11)
+        Controls.Add(Docente)
         Controls.Add(Label10)
+        Controls.Add(ComboBox5)
+        Controls.Add(ComboBox6)
+        Controls.Add(ComboBox3)
+        Controls.Add(ComboBox2)
+        Controls.Add(ComboBox4)
         Controls.Add(ComboBox1)
         Controls.Add(Label9)
         Controls.Add(btnimprimir)
@@ -402,6 +501,14 @@ Partial Class Matricula
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents PrintDialog1 As PrintDialog
     Friend WithEvents btnimprimir As Button
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents Docente As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
 End Class
