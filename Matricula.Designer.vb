@@ -225,7 +225,7 @@ Partial Class Matricula
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Rockwell", 10.2F)
-        Label1.Location = New Point(408, 39)
+        Label1.Location = New Point(408, 41)
         Label1.Name = "Label1"
         Label1.Size = New Size(123, 20)
         Label1.TabIndex = 0

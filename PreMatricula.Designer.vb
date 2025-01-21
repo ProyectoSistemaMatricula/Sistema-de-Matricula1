@@ -22,146 +22,296 @@ Partial Class PreMatricula
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PreMatricula))
         Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
+        Label8 = New Label()
         TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
         TextBox3 = New TextBox()
+        Label2 = New Label()
+        Label5 = New Label()
+        DateTimePicker1 = New DateTimePicker()
+        Label3 = New Label()
+        TextBox2 = New TextBox()
+        Label4 = New Label()
+        TextBox7 = New TextBox()
+        Label6 = New Label()
+        TextBox4 = New TextBox()
+        Label7 = New Label()
+        TextBox5 = New TextBox()
+        Label9 = New Label()
+        TextBox6 = New TextBox()
+        btnnuevo = New Button()
+        btnguardar = New Button()
+        btnmodificar = New Button()
+        btneliminar = New Button()
+        DataGridView1 = New DataGridView()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(320, 58)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(311, 18)
         Label1.Name = "Label1"
-        Label1.Size = New Size(227, 38)
+        Label1.Size = New Size(186, 31)
         Label1.TabIndex = 0
         Label1.Text = "PREMATRICULA"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Rockwell", 10.2F)
+        Label8.Location = New Point(30, 104)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(158, 20)
+        Label8.TabIndex = 19
+        Label8.Text = "Cod. Pre-Matricula"
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(227, 104)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(206, 27)
+        TextBox1.TabIndex = 20
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Location = New Point(173, 179)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(246, 27)
+        TextBox3.TabIndex = 21
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Rockwell", 9F)
-        Label2.Location = New Point(108, 148)
-        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Font = New Font("Rockwell", 10.2F)
+        Label2.Location = New Point(39, 179)
         Label2.Name = "Label2"
-        Label2.Size = New Size(196, 20)
-        Label2.TabIndex = 1
-        Label2.Text = "NOMBRE DE ALUMNO"
+        Label2.Size = New Size(81, 20)
+        Label2.TabIndex = 22
+        Label2.Text = "Nombres"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Rockwell", 10.2F)
+        Label5.Location = New Point(30, 248)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(174, 20)
+        Label5.TabIndex = 23
+        Label5.Text = "Fecha de Nacimiento"
+        ' 
+        ' DateTimePicker1
+        ' 
+        DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DateTimePicker1.Location = New Point(255, 241)
+        DateTimePicker1.Name = "DateTimePicker1"
+        DateTimePicker1.Size = New Size(190, 27)
+        DateTimePicker1.TabIndex = 24
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Rockwell", 9F)
-        Label3.Location = New Point(108, 231)
-        Label3.Margin = New Padding(4, 0, 4, 0)
+        Label3.Font = New Font("Rockwell", 10.2F)
+        Label3.Location = New Point(30, 323)
         Label3.Name = "Label3"
-        Label3.Size = New Size(139, 20)
-        Label3.TabIndex = 2
-        Label3.Text = "ID DE ALUMNO"
+        Label3.Size = New Size(71, 20)
+        Label3.TabIndex = 25
+        Label3.Text = "Carrera"
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(187, 323)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(246, 27)
+        TextBox2.TabIndex = 26
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Rockwell", 9F)
-        Label4.Location = New Point(108, 312)
-        Label4.Margin = New Padding(4, 0, 4, 0)
+        Label4.Font = New Font("Rockwell", 10.2F)
+        Label4.Location = New Point(462, 104)
         Label4.Name = "Label4"
-        Label4.Size = New Size(195, 20)
-        Label4.TabIndex = 3
-        Label4.Text = "CORREO DE ALUMNO"
+        Label4.Size = New Size(123, 20)
+        Label4.TabIndex = 27
+        Label4.Text = "N° Documento"
         ' 
-        ' Button1
+        ' TextBox7
         ' 
-        Button1.Location = New Point(189, 414)
-        Button1.Margin = New Padding(4, 4, 4, 4)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(131, 36)
-        Button1.TabIndex = 4
-        Button1.Text = "CONFIRMAR"
-        Button1.UseVisualStyleBackColor = True
+        TextBox7.Font = New Font("Segoe UI", 9F)
+        TextBox7.Location = New Point(591, 104)
+        TextBox7.Name = "TextBox7"
+        TextBox7.Size = New Size(229, 27)
+        TextBox7.TabIndex = 28
         ' 
-        ' Button2
+        ' Label6
         ' 
-        Button2.Location = New Point(396, 414)
-        Button2.Margin = New Padding(4, 4, 4, 4)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(118, 36)
-        Button2.TabIndex = 5
-        Button2.Text = "GUARDAR"
-        Button2.UseVisualStyleBackColor = True
+        Label6.AutoSize = True
+        Label6.Font = New Font("Rockwell", 10.2F)
+        Label6.Location = New Point(462, 179)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(92, 20)
+        Label6.TabIndex = 29
+        Label6.Text = "1°Apellido"
         ' 
-        ' Button3
+        ' TextBox4
         ' 
-        Button3.Location = New Point(601, 414)
-        Button3.Margin = New Padding(4, 4, 4, 4)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(118, 36)
-        Button3.TabIndex = 6
-        Button3.Text = "CANCELAR"
-        Button3.UseVisualStyleBackColor = True
+        TextBox4.Font = New Font("Segoe UI", 9F)
+        TextBox4.Location = New Point(576, 179)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(229, 27)
+        TextBox4.TabIndex = 30
         ' 
-        ' TextBox1
+        ' Label7
         ' 
-        TextBox1.Location = New Point(320, 144)
-        TextBox1.Margin = New Padding(4, 4, 4, 4)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(250, 31)
-        TextBox1.TabIndex = 7
+        Label7.AutoSize = True
+        Label7.Font = New Font("Rockwell", 10.2F)
+        Label7.Location = New Point(473, 241)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(92, 20)
+        Label7.TabIndex = 31
+        Label7.Text = "2°Apellido"
         ' 
-        ' TextBox2
+        ' TextBox5
         ' 
-        TextBox2.Location = New Point(320, 231)
-        TextBox2.Margin = New Padding(4, 4, 4, 4)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(250, 31)
-        TextBox2.TabIndex = 8
+        TextBox5.Font = New Font("Segoe UI", 9F)
+        TextBox5.Location = New Point(571, 243)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(229, 27)
+        TextBox5.TabIndex = 32
         ' 
-        ' TextBox3
+        ' Label9
         ' 
-        TextBox3.Location = New Point(320, 312)
-        TextBox3.Margin = New Padding(4, 4, 4, 4)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(250, 31)
-        TextBox3.TabIndex = 9
+        Label9.AutoSize = True
+        Label9.Font = New Font("Rockwell", 10.2F)
+        Label9.Location = New Point(473, 326)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(86, 20)
+        Label9.TabIndex = 33
+        Label9.Text = "Dirección"
+        ' 
+        ' TextBox6
+        ' 
+        TextBox6.Font = New Font("Segoe UI", 9F)
+        TextBox6.Location = New Point(576, 320)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(229, 27)
+        TextBox6.TabIndex = 34
+        ' 
+        ' btnnuevo
+        ' 
+        btnnuevo.Image = CType(resources.GetObject("btnnuevo.Image"), Image)
+        btnnuevo.ImageAlign = ContentAlignment.TopCenter
+        btnnuevo.Location = New Point(164, 411)
+        btnnuevo.Name = "btnnuevo"
+        btnnuevo.Size = New Size(94, 76)
+        btnnuevo.TabIndex = 35
+        btnnuevo.Text = "Nuevo"
+        btnnuevo.TextAlign = ContentAlignment.BottomCenter
+        btnnuevo.UseVisualStyleBackColor = True
+        ' 
+        ' btnguardar
+        ' 
+        btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
+        btnguardar.ImageAlign = ContentAlignment.TopCenter
+        btnguardar.Location = New Point(298, 411)
+        btnguardar.Name = "btnguardar"
+        btnguardar.Size = New Size(94, 76)
+        btnguardar.TabIndex = 36
+        btnguardar.Text = "Guardar"
+        btnguardar.TextAlign = ContentAlignment.BottomCenter
+        btnguardar.UseVisualStyleBackColor = True
+        ' 
+        ' btnmodificar
+        ' 
+        btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
+        btnmodificar.ImageAlign = ContentAlignment.TopCenter
+        btnmodificar.Location = New Point(417, 411)
+        btnmodificar.Name = "btnmodificar"
+        btnmodificar.Size = New Size(94, 76)
+        btnmodificar.TabIndex = 37
+        btnmodificar.Text = "Modificar"
+        btnmodificar.TextAlign = ContentAlignment.BottomCenter
+        btnmodificar.UseVisualStyleBackColor = True
+        ' 
+        ' btneliminar
+        ' 
+        btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
+        btneliminar.ImageAlign = ContentAlignment.TopCenter
+        btneliminar.Location = New Point(554, 411)
+        btneliminar.Name = "btneliminar"
+        btneliminar.Size = New Size(94, 76)
+        btneliminar.TabIndex = 38
+        btneliminar.Text = "Eliminar"
+        btneliminar.TextAlign = ContentAlignment.BottomCenter
+        btneliminar.UseVisualStyleBackColor = True
+        ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.BackgroundColor = SystemColors.ActiveBorder
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.GridColor = SystemColors.HighlightText
+        DataGridView1.Location = New Point(62, 507)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(706, 246)
+        DataGridView1.TabIndex = 39
         ' 
         ' PreMatricula
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1040, 982)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        ClientSize = New Size(832, 786)
+        Controls.Add(DataGridView1)
+        Controls.Add(btneliminar)
+        Controls.Add(btnmodificar)
+        Controls.Add(btnguardar)
+        Controls.Add(btnnuevo)
+        Controls.Add(TextBox6)
+        Controls.Add(Label9)
+        Controls.Add(TextBox5)
+        Controls.Add(Label7)
+        Controls.Add(TextBox4)
+        Controls.Add(Label6)
+        Controls.Add(TextBox7)
         Controls.Add(Label4)
+        Controls.Add(TextBox2)
         Controls.Add(Label3)
+        Controls.Add(DateTimePicker1)
+        Controls.Add(Label5)
         Controls.Add(Label2)
+        Controls.Add(TextBox3)
+        Controls.Add(TextBox1)
+        Controls.Add(Label8)
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.None
-        Margin = New Padding(4, 4, 4, 4)
         Name = "PreMatricula"
+        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents Label8 As Label
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents btnnuevo As Button
+    Friend WithEvents btnguardar As Button
+    Friend WithEvents btnmodificar As Button
+    Friend WithEvents btneliminar As Button
+    Friend WithEvents DataGridView1 As DataGridView
 End Class
