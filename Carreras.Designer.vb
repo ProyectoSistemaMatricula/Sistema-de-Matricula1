@@ -344,10 +344,10 @@ Partial Class Carreras
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(27, 17)
+        PictureBox1.Location = New Point(16, 17)
         PictureBox1.Margin = New Padding(4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(62, 54)
+        PictureBox1.Size = New Size(83, 81)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 79
         PictureBox1.TabStop = False

@@ -38,92 +38,105 @@ Partial Class PreMatricula
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(256, 46)
+        Label1.Location = New Point(320, 58)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(186, 31)
+        Label1.Size = New Size(227, 38)
         Label1.TabIndex = 0
         Label1.Text = "PREMATRICULA"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(86, 118)
+        Label2.Font = New Font("Rockwell", 9F)
+        Label2.Location = New Point(108, 148)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(159, 20)
+        Label2.Size = New Size(196, 20)
         Label2.TabIndex = 1
         Label2.Text = "NOMBRE DE ALUMNO"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(86, 185)
+        Label3.Font = New Font("Rockwell", 9F)
+        Label3.Location = New Point(108, 231)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(113, 20)
+        Label3.Size = New Size(139, 20)
         Label3.TabIndex = 2
         Label3.Text = "ID DE ALUMNO"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(86, 250)
+        Label4.Font = New Font("Rockwell", 9F)
+        Label4.Location = New Point(108, 312)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(155, 20)
+        Label4.Size = New Size(195, 20)
         Label4.TabIndex = 3
         Label4.Text = "CORREO DE ALUMNO"
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(151, 331)
+        Button1.Location = New Point(189, 414)
+        Button1.Margin = New Padding(4, 4, 4, 4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(105, 29)
+        Button1.Size = New Size(131, 36)
         Button1.TabIndex = 4
         Button1.Text = "CONFIRMAR"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(317, 331)
+        Button2.Location = New Point(396, 414)
+        Button2.Margin = New Padding(4, 4, 4, 4)
         Button2.Name = "Button2"
-        Button2.Size = New Size(94, 29)
+        Button2.Size = New Size(118, 36)
         Button2.TabIndex = 5
         Button2.Text = "GUARDAR"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(481, 331)
+        Button3.Location = New Point(601, 414)
+        Button3.Margin = New Padding(4, 4, 4, 4)
         Button3.Name = "Button3"
-        Button3.Size = New Size(94, 29)
+        Button3.Size = New Size(118, 36)
         Button3.TabIndex = 6
         Button3.Text = "CANCELAR"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(256, 115)
+        TextBox1.Location = New Point(320, 144)
+        TextBox1.Margin = New Padding(4, 4, 4, 4)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(201, 27)
+        TextBox1.Size = New Size(250, 31)
         TextBox1.TabIndex = 7
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(256, 185)
+        TextBox2.Location = New Point(320, 231)
+        TextBox2.Margin = New Padding(4, 4, 4, 4)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(201, 27)
+        TextBox2.Size = New Size(250, 31)
         TextBox2.TabIndex = 8
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(350, 250)
+        TextBox3.Location = New Point(320, 312)
+        TextBox3.Margin = New Padding(4, 4, 4, 4)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(201, 27)
+        TextBox3.Size = New Size(250, 31)
         TextBox3.TabIndex = 9
         ' 
         ' PreMatricula
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(832, 786)
+        ClientSize = New Size(1040, 982)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
@@ -135,6 +148,7 @@ Partial Class PreMatricula
         Controls.Add(Label2)
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(4, 4, 4, 4)
         Name = "PreMatricula"
         ResumeLayout(False)
         PerformLayout()
