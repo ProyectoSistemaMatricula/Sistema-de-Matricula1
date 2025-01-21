@@ -334,6 +334,7 @@ Partial Class Matricula
         ' 
         ' DataGridView1
         ' 
+        DataGridView1.BackgroundColor = SystemColors.ButtonFace
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.GridColor = SystemColors.HighlightText
         DataGridView1.Location = New Point(12, 363)
@@ -346,11 +347,12 @@ Partial Class Matricula
         ' btnimprimir
         ' 
         btnimprimir.Image = CType(resources.GetObject("btnimprimir.Image"), Image)
-        btnimprimir.Location = New Point(576, 233)
+        btnimprimir.Location = New Point(556, 211)
         btnimprimir.Margin = New Padding(3, 2, 3, 2)
         btnimprimir.Name = "btnimprimir"
-        btnimprimir.Size = New Size(45, 35)
+        btnimprimir.Size = New Size(77, 57)
         btnimprimir.TabIndex = 7
+        btnimprimir.Text = "Imprimir"
         btnimprimir.UseVisualStyleBackColor = True
         ' 
         ' ComboBox2
@@ -463,7 +465,7 @@ Partial Class Matricula
         Controls.Add(btnnuevo)
         Controls.Add(btnatras)
         Controls.Add(GroupBox1)
-        FormBorderStyle = FormBorderStyle.None
+        FormBorderStyle = FormBorderStyle.SizableToolWindow
         Margin = New Padding(3, 2, 3, 2)
         Name = "Matricula"
         StartPosition = FormStartPosition.CenterScreen
