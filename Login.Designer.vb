@@ -36,7 +36,7 @@ Partial Class Login
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(249, 41)
+        PictureBox1.Location = New Point(261, 41)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(125, 106)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
@@ -100,6 +100,7 @@ Partial Class Login
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(618, 447)
         Controls.Add(btnsalir)
         Controls.Add(btnentrar)
