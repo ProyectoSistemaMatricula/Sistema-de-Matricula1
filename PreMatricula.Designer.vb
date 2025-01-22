@@ -105,7 +105,7 @@ Partial Class PreMatricula
         ' DateTimePicker1
         ' 
         DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(255, 241)
+        DateTimePicker1.Location = New Point(227, 248)
         DateTimePicker1.Name = "DateTimePicker1"
         DateTimePicker1.Size = New Size(190, 27)
         DateTimePicker1.TabIndex = 24
@@ -167,7 +167,7 @@ Partial Class PreMatricula
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(473, 241)
+        Label7.Location = New Point(462, 243)
         Label7.Name = "Label7"
         Label7.Size = New Size(92, 20)
         Label7.TabIndex = 31
@@ -185,7 +185,7 @@ Partial Class PreMatricula
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Rockwell", 10.2F)
-        Label9.Location = New Point(473, 326)
+        Label9.Location = New Point(462, 326)
         Label9.Name = "Label9"
         Label9.Size = New Size(86, 20)
         Label9.TabIndex = 33
@@ -194,7 +194,7 @@ Partial Class PreMatricula
         ' TextBox6
         ' 
         TextBox6.Font = New Font("Segoe UI", 9F)
-        TextBox6.Location = New Point(576, 320)
+        TextBox6.Location = New Point(554, 323)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(229, 27)
         TextBox6.TabIndex = 34
@@ -262,6 +262,7 @@ Partial Class PreMatricula
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(832, 786)
         Controls.Add(DataGridView1)
         Controls.Add(btneliminar)
