@@ -24,13 +24,14 @@ Partial Class Reporte
     Private Sub InitializeComponent()
         SuspendLayout()
         ' 
-        ' Clases
+        ' Reporte
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(832, 626)
         FormBorderStyle = FormBorderStyle.None
-        Name = "Clases"
+        Name = "Reporte"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Clases"
         ResumeLayout(False)

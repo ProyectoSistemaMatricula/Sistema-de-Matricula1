@@ -52,7 +52,7 @@ Partial Class PreMatricula
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(311, 18)
+        Label1.Location = New Point(325, 20)
         Label1.Name = "Label1"
         Label1.Size = New Size(186, 31)
         Label1.TabIndex = 0
