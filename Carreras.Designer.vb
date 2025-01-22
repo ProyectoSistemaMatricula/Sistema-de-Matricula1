@@ -186,7 +186,7 @@ Partial Class Carreras
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Location = New Point(13, 14)
+        PictureBox1.Location = New Point(12, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(66, 65)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
@@ -221,7 +221,7 @@ Partial Class Carreras
         ' 
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
-        btnguardar.Location = New Point(13, 142)
+        btnguardar.Location = New Point(12, 136)
         btnguardar.Name = "btnguardar"
         btnguardar.Size = New Size(75, 81)
         btnguardar.TabIndex = 76
@@ -252,6 +252,7 @@ Partial Class Carreras
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(941, 626)
         Controls.Add(PictureBox1)
         Controls.Add(btneliminar)
