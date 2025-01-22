@@ -422,6 +422,7 @@ Partial Class Matricula
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(856, 847)
         Controls.Add(Label13)
         Controls.Add(Label12)
