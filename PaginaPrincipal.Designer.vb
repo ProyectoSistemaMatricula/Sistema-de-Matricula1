@@ -157,6 +157,7 @@ Partial Class PaginaPrincipal
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
         ClientSize = New Size(832, 626)
         Controls.Add(Label6)
         Controls.Add(Label5)
