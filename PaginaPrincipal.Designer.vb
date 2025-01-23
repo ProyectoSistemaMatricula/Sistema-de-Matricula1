@@ -35,13 +35,15 @@ Partial Class PaginaPrincipal
         Label4 = New Label()
         Label5 = New Label()
         Label6 = New Label()
+        PictureBox2 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' btnprematricula
         ' 
         btnprematricula.Image = CType(resources.GetObject("btnprematricula.Image"), Image)
-        btnprematricula.Location = New Point(76, 199)
+        btnprematricula.Location = New Point(61, 225)
         btnprematricula.Name = "btnprematricula"
         btnprematricula.Size = New Size(172, 157)
         btnprematricula.TabIndex = 0
@@ -50,7 +52,7 @@ Partial Class PaginaPrincipal
         ' btnmatricula
         ' 
         btnmatricula.Image = CType(resources.GetObject("btnmatricula.Image"), Image)
-        btnmatricula.Location = New Point(338, 199)
+        btnmatricula.Location = New Point(338, 225)
         btnmatricula.Name = "btnmatricula"
         btnmatricula.Size = New Size(172, 157)
         btnmatricula.TabIndex = 1
@@ -59,7 +61,7 @@ Partial Class PaginaPrincipal
         ' btnestudiantes
         ' 
         btnestudiantes.Image = CType(resources.GetObject("btnestudiantes.Image"), Image)
-        btnestudiantes.Location = New Point(603, 199)
+        btnestudiantes.Location = New Point(608, 225)
         btnestudiantes.Name = "btnestudiantes"
         btnestudiantes.Size = New Size(172, 157)
         btnestudiantes.TabIndex = 2
@@ -68,7 +70,7 @@ Partial Class PaginaPrincipal
         ' btncarreras
         ' 
         btncarreras.Image = CType(resources.GetObject("btncarreras.Image"), Image)
-        btncarreras.Location = New Point(338, 407)
+        btncarreras.Location = New Point(338, 422)
         btncarreras.Name = "btncarreras"
         btncarreras.Size = New Size(172, 157)
         btncarreras.TabIndex = 3
@@ -77,9 +79,9 @@ Partial Class PaginaPrincipal
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(41, 29)
+        PictureBox1.Location = New Point(61, 47)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(120, 130)
+        PictureBox1.Size = New Size(138, 142)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 5
         PictureBox1.TabStop = False
@@ -97,7 +99,7 @@ Partial Class PaginaPrincipal
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(183, 44)
+        Label1.Location = New Point(265, 47)
         Label1.Name = "Label1"
         Label1.Size = New Size(421, 46)
         Label1.TabIndex = 7
@@ -107,7 +109,7 @@ Partial Class PaginaPrincipal
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Stencil", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(183, 90)
+        Label2.Location = New Point(407, 109)
         Label2.Name = "Label2"
         Label2.Size = New Size(126, 52)
         Label2.TabIndex = 8
@@ -117,7 +119,7 @@ Partial Class PaginaPrincipal
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        Label3.Location = New Point(89, 359)
+        Label3.Location = New Point(76, 392)
         Label3.Name = "Label3"
         Label3.Size = New Size(144, 23)
         Label3.TabIndex = 9
@@ -127,7 +129,7 @@ Partial Class PaginaPrincipal
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        Label4.Location = New Point(367, 359)
+        Label4.Location = New Point(367, 392)
         Label4.Name = "Label4"
         Label4.Size = New Size(107, 23)
         Label4.TabIndex = 10
@@ -137,7 +139,7 @@ Partial Class PaginaPrincipal
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        Label5.Location = New Point(638, 359)
+        Label5.Location = New Point(638, 392)
         Label5.Name = "Label5"
         Label5.Size = New Size(123, 23)
         Label5.TabIndex = 11
@@ -147,11 +149,21 @@ Partial Class PaginaPrincipal
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
-        Label6.Location = New Point(379, 567)
+        Label6.Location = New Point(377, 594)
         Label6.Name = "Label6"
         Label6.Size = New Size(97, 23)
         Label6.TabIndex = 12
         Label6.Text = "CARRERAS"
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(0, 1)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(833, 626)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 13
+        PictureBox2.TabStop = False
         ' 
         ' PaginaPrincipal
         ' 
@@ -171,11 +183,13 @@ Partial Class PaginaPrincipal
         Controls.Add(btnestudiantes)
         Controls.Add(btnmatricula)
         Controls.Add(btnprematricula)
+        Controls.Add(PictureBox2)
         FormBorderStyle = FormBorderStyle.None
         Name = "PaginaPrincipal"
         StartPosition = FormStartPosition.CenterScreen
         Text = "PaginaPrincipal"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -192,4 +206,5 @@ Partial Class PaginaPrincipal
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
