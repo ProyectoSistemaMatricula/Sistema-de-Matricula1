@@ -41,16 +41,23 @@ Partial Class Carreras
         btneliminar = New Button()
         btnmodificar = New Button()
         btnguardar = New Button()
-        Button1 = New Button()
-        Button2 = New Button()
+        PictureBox2 = New PictureBox()
+        PictureBox3 = New PictureBox()
+        btnatras = New Button()
+        DataGridView1 = New DataGridView()
+        Btncarrera = New Button()
+        CheckBox11 = New CheckBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' ListMenu
         ' 
         ListMenu.FormattingEnabled = True
         ListMenu.Items.AddRange(New Object() {"Ingeniería en Sistemas", " Medicina", " Derecho", " Psicología", " Arquitectura", " Administración de Empresas", " Diseño Gráfico", " Contaduría Pública", " Ingeniería Industrial", "", "Comunicación Social"})
-        ListMenu.Location = New Point(390, 207)
+        ListMenu.Location = New Point(403, 323)
         ListMenu.Name = "ListMenu"
         ListMenu.Size = New Size(434, 244)
         ListMenu.TabIndex = 62
@@ -58,7 +65,7 @@ Partial Class Carreras
         ' CheckBox10
         ' 
         CheckBox10.AutoSize = True
-        CheckBox10.Location = New Point(373, 413)
+        CheckBox10.Location = New Point(386, 529)
         CheckBox10.Name = "CheckBox10"
         CheckBox10.Size = New Size(111, 24)
         CheckBox10.TabIndex = 72
@@ -68,7 +75,7 @@ Partial Class Carreras
         ' CheckBox9
         ' 
         CheckBox9.AutoSize = True
-        CheckBox9.Location = New Point(373, 370)
+        CheckBox9.Location = New Point(386, 486)
         CheckBox9.Name = "CheckBox9"
         CheckBox9.Size = New Size(103, 24)
         CheckBox9.TabIndex = 71
@@ -78,7 +85,7 @@ Partial Class Carreras
         ' CheckBox8
         ' 
         CheckBox8.AutoSize = True
-        CheckBox8.Location = New Point(373, 349)
+        CheckBox8.Location = New Point(386, 465)
         CheckBox8.Name = "CheckBox8"
         CheckBox8.Size = New Size(103, 24)
         CheckBox8.TabIndex = 70
@@ -88,7 +95,7 @@ Partial Class Carreras
         ' CheckBox7
         ' 
         CheckBox7.AutoSize = True
-        CheckBox7.Location = New Point(373, 330)
+        CheckBox7.Location = New Point(386, 446)
         CheckBox7.Name = "CheckBox7"
         CheckBox7.Size = New Size(103, 24)
         CheckBox7.TabIndex = 69
@@ -98,7 +105,7 @@ Partial Class Carreras
         ' CheckBox6
         ' 
         CheckBox6.AutoSize = True
-        CheckBox6.Location = New Point(373, 309)
+        CheckBox6.Location = New Point(386, 425)
         CheckBox6.Name = "CheckBox6"
         CheckBox6.Size = New Size(103, 24)
         CheckBox6.TabIndex = 68
@@ -108,7 +115,7 @@ Partial Class Carreras
         ' CheckBox5
         ' 
         CheckBox5.AutoSize = True
-        CheckBox5.Location = New Point(373, 290)
+        CheckBox5.Location = New Point(386, 406)
         CheckBox5.Name = "CheckBox5"
         CheckBox5.Size = New Size(103, 24)
         CheckBox5.TabIndex = 67
@@ -118,7 +125,7 @@ Partial Class Carreras
         ' CheckBox4
         ' 
         CheckBox4.AutoSize = True
-        CheckBox4.Location = New Point(373, 270)
+        CheckBox4.Location = New Point(386, 386)
         CheckBox4.Name = "CheckBox4"
         CheckBox4.Size = New Size(103, 24)
         CheckBox4.TabIndex = 66
@@ -128,7 +135,7 @@ Partial Class Carreras
         ' CheckBox3
         ' 
         CheckBox3.AutoSize = True
-        CheckBox3.Location = New Point(373, 249)
+        CheckBox3.Location = New Point(386, 365)
         CheckBox3.Name = "CheckBox3"
         CheckBox3.Size = New Size(103, 24)
         CheckBox3.TabIndex = 65
@@ -138,7 +145,7 @@ Partial Class Carreras
         ' CheckBox2
         ' 
         CheckBox2.AutoSize = True
-        CheckBox2.Location = New Point(373, 228)
+        CheckBox2.Location = New Point(386, 344)
         CheckBox2.Name = "CheckBox2"
         CheckBox2.Size = New Size(103, 24)
         CheckBox2.TabIndex = 64
@@ -148,7 +155,7 @@ Partial Class Carreras
         ' CheckBox1
         ' 
         CheckBox1.AutoSize = True
-        CheckBox1.Location = New Point(373, 207)
+        CheckBox1.Location = New Point(386, 323)
         CheckBox1.Name = "CheckBox1"
         CheckBox1.Size = New Size(103, 24)
         CheckBox1.TabIndex = 63
@@ -160,7 +167,7 @@ Partial Class Carreras
         Label1.AutoSize = True
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(390, 95)
+        Label1.Location = New Point(403, 22)
         Label1.Name = "Label1"
         Label1.Size = New Size(415, 46)
         Label1.TabIndex = 55
@@ -170,7 +177,7 @@ Partial Class Carreras
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Rockwell", 10.2F)
-        Label8.Location = New Point(150, 22)
+        Label8.Location = New Point(126, 22)
         Label8.Name = "Label8"
         Label8.Size = New Size(135, 20)
         Label8.TabIndex = 74
@@ -179,16 +186,17 @@ Partial Class Carreras
         ' ListBox1
         ' 
         ListBox1.FormattingEnabled = True
-        ListBox1.Location = New Point(138, 53)
+        ListBox1.Location = New Point(116, 45)
         ListBox1.Name = "ListBox1"
         ListBox1.Size = New Size(158, 124)
         ListBox1.TabIndex = 73
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Location = New Point(12, 12)
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Location = New Point(24, 22)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(66, 65)
+        PictureBox1.Size = New Size(51, 51)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 79
         PictureBox1.TabStop = False
@@ -229,36 +237,76 @@ Partial Class Carreras
         btnguardar.TextAlign = ContentAlignment.BottomCenter
         btnguardar.UseVisualStyleBackColor = True
         ' 
-        ' Button1
+        ' PictureBox2
         ' 
-        Button1.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        Button1.ForeColor = Color.Black
-        Button1.Location = New Point(-1, -2)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(96, 630)
-        Button1.TabIndex = 75
-        Button1.UseVisualStyleBackColor = False
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(2, 1)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(96, 630)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 80
+        PictureBox2.TabStop = False
         ' 
-        ' Button2
+        ' PictureBox3
         ' 
-        Button2.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        Button2.Location = New Point(326, 22)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(558, 596)
-        Button2.TabIndex = 56
-        Button2.UseVisualStyleBackColor = False
+        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
+        PictureBox3.Location = New Point(296, 1)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(645, 630)
+        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox3.TabIndex = 81
+        PictureBox3.TabStop = False
+        ' 
+        ' btnatras
+        ' 
+        btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
+        btnatras.Location = New Point(859, 12)
+        btnatras.Name = "btnatras"
+        btnatras.Size = New Size(70, 66)
+        btnatras.TabIndex = 82
+        btnatras.UseVisualStyleBackColor = True
+        ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Location = New Point(320, 84)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(588, 217)
+        DataGridView1.TabIndex = 83
+        ' 
+        ' Btncarrera
+        ' 
+        Btncarrera.Location = New Point(564, 573)
+        Btncarrera.Name = "Btncarrera"
+        Btncarrera.Size = New Size(130, 29)
+        Btncarrera.TabIndex = 84
+        Btncarrera.Text = "Tomar carrera"
+        Btncarrera.UseVisualStyleBackColor = True
+        ' 
+        ' CheckBox11
+        ' 
+        CheckBox11.AutoSize = True
+        CheckBox11.Location = New Point(625, 243)
+        CheckBox11.Name = "CheckBox11"
+        CheckBox11.Size = New Size(111, 24)
+        CheckBox11.TabIndex = 85
+        CheckBox11.Text = "CheckBox11"
+        CheckBox11.UseVisualStyleBackColor = True
         ' 
         ' Carreras
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = SystemColors.ActiveCaption
+        BackColor = Color.White
         ClientSize = New Size(941, 626)
+        Controls.Add(Btncarrera)
+        Controls.Add(DataGridView1)
+        Controls.Add(btnatras)
         Controls.Add(PictureBox1)
         Controls.Add(btneliminar)
         Controls.Add(btnmodificar)
         Controls.Add(btnguardar)
-        Controls.Add(Button1)
         Controls.Add(Label8)
         Controls.Add(ListBox1)
         Controls.Add(ListMenu)
@@ -273,12 +321,17 @@ Partial Class Carreras
         Controls.Add(CheckBox2)
         Controls.Add(CheckBox1)
         Controls.Add(Label1)
-        Controls.Add(Button2)
+        Controls.Add(PictureBox2)
+        Controls.Add(PictureBox3)
+        Controls.Add(CheckBox11)
         FormBorderStyle = FormBorderStyle.None
         Name = "Carreras"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Carreras"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -301,6 +354,10 @@ Partial Class Carreras
     Friend WithEvents btneliminar As Button
     Friend WithEvents btnmodificar As Button
     Friend WithEvents btnguardar As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents btnatras As Button
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Btncarrera As Button
+    Friend WithEvents CheckBox11 As CheckBox
 End Class

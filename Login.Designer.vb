@@ -23,25 +23,15 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
-        PictureBox1 = New PictureBox()
         Label1 = New Label()
         Label2 = New Label()
         txtuser = New TextBox()
         txtcontra = New TextBox()
         btnentrar = New Button()
         btnsalir = New Button()
+        PictureBox1 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(261, 41)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(125, 106)
-        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox1.TabIndex = 0
-        PictureBox1.TabStop = False
         ' 
         ' Label1
         ' 
@@ -96,6 +86,16 @@ Partial Class Login
         btnsalir.TabIndex = 6
         btnsalir.UseVisualStyleBackColor = True
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Location = New Point(0, 1)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(618, 445)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 7
+        PictureBox1.TabStop = False
+        ' 
         ' Login
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -117,13 +117,12 @@ Partial Class Login
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents txtuser As TextBox
     Friend WithEvents txtcontra As TextBox
     Friend WithEvents btnentrar As Button
     Friend WithEvents btnsalir As Button
+    Friend WithEvents PictureBox1 As PictureBox
 
 End Class

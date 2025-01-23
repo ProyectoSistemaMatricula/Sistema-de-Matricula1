@@ -1,9 +1,6 @@
 ﻿Public Class Matricula
-    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
-
-    End Sub
-
-    Private Sub Matricula_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub btnatras_Click(sender As Object, e As EventArgs) Handles btnatras.Click
+        Me.Hide()
+        PaginaPrincipal.Show()
     End Sub
 End Class
