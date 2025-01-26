@@ -15,4 +15,8 @@
     Private Sub btnsalir_Click(sender As Object, e As EventArgs) Handles btnsalir.Click
         Me.Close()
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

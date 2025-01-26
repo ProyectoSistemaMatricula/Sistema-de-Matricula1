@@ -23,25 +23,13 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
-        Label1 = New Label()
         Label2 = New Label()
         txtuser = New TextBox()
         txtcontra = New TextBox()
         btnentrar = New Button()
         btnsalir = New Button()
-        PictureBox1 = New PictureBox()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        Label1 = New Label()
         SuspendLayout()
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(113, 179)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(85, 23)
-        Label1.TabIndex = 1
-        Label1.Text = "USUARIO"
         ' 
         ' Label2
         ' 
@@ -86,21 +74,24 @@ Partial Class Login
         btnsalir.TabIndex = 6
         btnsalir.UseVisualStyleBackColor = True
         ' 
-        ' PictureBox1
+        ' Label1
         ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(0, 1)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(618, 445)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 7
-        PictureBox1.TabStop = False
+        Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
+        Label1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(113, 179)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(85, 23)
+        Label1.TabIndex = 1
+        Label1.Text = "USUARIO"
         ' 
         ' Login
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = SystemColors.ActiveCaption
+        BackColor = Color.White
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(618, 447)
         Controls.Add(btnsalir)
         Controls.Add(btnentrar)
@@ -108,21 +99,18 @@ Partial Class Login
         Controls.Add(txtuser)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Controls.Add(PictureBox1)
         FormBorderStyle = FormBorderStyle.None
         Name = "Login"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents txtuser As TextBox
     Friend WithEvents txtcontra As TextBox
     Friend WithEvents btnentrar As Button
     Friend WithEvents btnsalir As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
 
 End Class

@@ -51,7 +51,6 @@ Partial Class Matricula
         Label3 = New Label()
         Label2 = New Label()
         Label15 = New Label()
-        PictureBox3 = New PictureBox()
         Label1 = New Label()
         btnimprimir = New Button()
         btneliminar = New Button()
@@ -61,7 +60,6 @@ Partial Class Matricula
         PictureBox1 = New PictureBox()
         PictureBox2 = New PictureBox()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -77,6 +75,7 @@ Partial Class Matricula
         ' Label10
         ' 
         Label10.AutoSize = True
+        Label10.BackColor = Color.Transparent
         Label10.Font = New Font("Rockwell", 10.2F)
         Label10.Location = New Point(396, 331)
         Label10.Name = "Label10"
@@ -87,6 +86,7 @@ Partial Class Matricula
         ' Label9
         ' 
         Label9.AutoSize = True
+        Label9.BackColor = Color.Transparent
         Label9.Font = New Font("Rockwell", 10.2F)
         Label9.Location = New Point(189, 329)
         Label9.Name = "Label9"
@@ -158,6 +158,7 @@ Partial Class Matricula
         ' Docente
         ' 
         Docente.AutoSize = True
+        Docente.BackColor = Color.Transparent
         Docente.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Docente.Location = New Point(607, 329)
         Docente.Name = "Docente"
@@ -168,6 +169,7 @@ Partial Class Matricula
         ' Label11
         ' 
         Label11.AutoSize = True
+        Label11.BackColor = Color.Transparent
         Label11.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label11.Location = New Point(189, 381)
         Label11.Name = "Label11"
@@ -178,6 +180,7 @@ Partial Class Matricula
         ' Label12
         ' 
         Label12.AutoSize = True
+        Label12.BackColor = Color.Transparent
         Label12.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label12.Location = New Point(396, 379)
         Label12.Name = "Label12"
@@ -188,6 +191,7 @@ Partial Class Matricula
         ' Label13
         ' 
         Label13.AutoSize = True
+        Label13.BackColor = Color.Transparent
         Label13.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label13.Location = New Point(607, 379)
         Label13.Name = "Label13"
@@ -198,6 +202,7 @@ Partial Class Matricula
         ' Label14
         ' 
         Label14.AutoSize = True
+        Label14.BackColor = Color.Transparent
         Label14.Font = New Font("Rockwell", 10.2F)
         Label14.Location = New Point(166, 114)
         Label14.Name = "Label14"
@@ -262,6 +267,7 @@ Partial Class Matricula
         ' Label7
         ' 
         Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Rockwell", 10.2F)
         Label7.Location = New Point(508, 198)
         Label7.Name = "Label7"
@@ -272,6 +278,7 @@ Partial Class Matricula
         ' Label6
         ' 
         Label6.AutoSize = True
+        Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Rockwell", 10.2F)
         Label6.Location = New Point(166, 237)
         Label6.Name = "Label6"
@@ -282,6 +289,7 @@ Partial Class Matricula
         ' Label5
         ' 
         Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
         Label5.Location = New Point(168, 198)
         Label5.Name = "Label5"
@@ -292,6 +300,7 @@ Partial Class Matricula
         ' Label3
         ' 
         Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Rockwell", 10.2F)
         Label3.Location = New Point(500, 160)
         Label3.Name = "Label3"
@@ -302,6 +311,7 @@ Partial Class Matricula
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Rockwell", 10.2F)
         Label2.Location = New Point(166, 160)
         Label2.Name = "Label2"
@@ -312,22 +322,13 @@ Partial Class Matricula
         ' Label15
         ' 
         Label15.AutoSize = True
+        Label15.BackColor = Color.Transparent
         Label15.Font = New Font("Rockwell", 10.2F)
         Label15.Location = New Point(501, 112)
         Label15.Name = "Label15"
         Label15.Size = New Size(106, 20)
         Label15.TabIndex = 84
         Label15.Text = "N° Identidad"
-        ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(151, -6)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(704, 852)
-        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox3.TabIndex = 102
-        PictureBox3.TabStop = False
         ' 
         ' Label1
         ' 
@@ -424,6 +425,8 @@ Partial Class Matricula
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ButtonHighlight
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(856, 847)
         Controls.Add(btnimprimir)
         Controls.Add(btneliminar)
@@ -461,13 +464,11 @@ Partial Class Matricula
         Controls.Add(Label9)
         Controls.Add(DataGridView1)
         Controls.Add(btnatras)
-        Controls.Add(PictureBox3)
         FormBorderStyle = FormBorderStyle.SizableToolWindow
         Name = "Matricula"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Matricula"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
@@ -501,7 +502,6 @@ Partial Class Matricula
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents btnimprimir As Button
     Friend WithEvents btneliminar As Button

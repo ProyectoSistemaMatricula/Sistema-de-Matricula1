@@ -39,7 +39,6 @@ Partial Class PreMatricula
         Label14 = New Label()
         Label1 = New Label()
         btnatras = New Button()
-        PictureBox3 = New PictureBox()
         DataGridView1 = New DataGridView()
         btnimprimir = New Button()
         btneliminar = New Button()
@@ -48,7 +47,6 @@ Partial Class PreMatricula
         btnnuevo = New Button()
         PictureBox1 = New PictureBox()
         PictureBox2 = New PictureBox()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -110,7 +108,7 @@ Partial Class PreMatricula
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.BackColor = Color.White
+        Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Rockwell", 10.2F)
         Label7.Location = New Point(533, 213)
         Label7.Name = "Label7"
@@ -121,7 +119,7 @@ Partial Class PreMatricula
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.BackColor = Color.White
+        Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Rockwell", 10.2F)
         Label6.Location = New Point(201, 258)
         Label6.Name = "Label6"
@@ -132,7 +130,7 @@ Partial Class PreMatricula
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.BackColor = Color.White
+        Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
         Label5.Location = New Point(201, 216)
         Label5.Name = "Label5"
@@ -143,7 +141,7 @@ Partial Class PreMatricula
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.BackColor = Color.White
+        Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Rockwell", 10.2F)
         Label3.Location = New Point(533, 164)
         Label3.Name = "Label3"
@@ -154,7 +152,7 @@ Partial Class PreMatricula
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.BackColor = Color.White
+        Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Rockwell", 10.2F)
         Label2.Location = New Point(201, 171)
         Label2.Name = "Label2"
@@ -177,7 +175,7 @@ Partial Class PreMatricula
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.BackColor = Color.White
+        Label14.BackColor = Color.Transparent
         Label14.Font = New Font("Rockwell", 10.2F)
         Label14.Location = New Point(201, 126)
         Label14.Name = "Label14"
@@ -206,16 +204,6 @@ Partial Class PreMatricula
         btnatras.Size = New Size(70, 67)
         btnatras.TabIndex = 116
         btnatras.UseVisualStyleBackColor = False
-        ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(185, 2)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(647, 852)
-        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox3.TabIndex = 117
-        PictureBox3.TabStop = False
         ' 
         ' DataGridView1
         ' 
@@ -312,6 +300,8 @@ Partial Class PreMatricula
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(832, 786)
         Controls.Add(btnimprimir)
         Controls.Add(btneliminar)
@@ -337,10 +327,8 @@ Partial Class PreMatricula
         Controls.Add(Label2)
         Controls.Add(Label15)
         Controls.Add(Label14)
-        Controls.Add(PictureBox3)
         FormBorderStyle = FormBorderStyle.None
         Name = "PreMatricula"
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
@@ -363,7 +351,6 @@ Partial Class PreMatricula
     Friend WithEvents Label14 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btnatras As Button
-    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents btnimprimir As Button
     Friend WithEvents btneliminar As Button

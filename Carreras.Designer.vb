@@ -42,14 +42,12 @@ Partial Class Carreras
         btnmodificar = New Button()
         btnguardar = New Button()
         PictureBox2 = New PictureBox()
-        PictureBox3 = New PictureBox()
         btnatras = New Button()
         DataGridView1 = New DataGridView()
         Btncarrera = New Button()
         CheckBox11 = New CheckBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -165,6 +163,7 @@ Partial Class Carreras
         ' Label1
         ' 
         Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
         Label1.Location = New Point(403, 22)
@@ -176,7 +175,9 @@ Partial Class Carreras
         ' Label8
         ' 
         Label8.AutoSize = True
+        Label8.BackColor = Color.Transparent
         Label8.Font = New Font("Rockwell", 10.2F)
+        Label8.ForeColor = Color.Black
         Label8.Location = New Point(126, 22)
         Label8.Name = "Label8"
         Label8.Size = New Size(135, 20)
@@ -247,16 +248,6 @@ Partial Class Carreras
         PictureBox2.TabIndex = 80
         PictureBox2.TabStop = False
         ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(296, 1)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(645, 630)
-        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox3.TabIndex = 81
-        PictureBox3.TabStop = False
-        ' 
         ' btnatras
         ' 
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
@@ -299,6 +290,8 @@ Partial Class Carreras
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(941, 626)
         Controls.Add(Btncarrera)
         Controls.Add(DataGridView1)
@@ -322,7 +315,6 @@ Partial Class Carreras
         Controls.Add(CheckBox1)
         Controls.Add(Label1)
         Controls.Add(PictureBox2)
-        Controls.Add(PictureBox3)
         Controls.Add(CheckBox11)
         FormBorderStyle = FormBorderStyle.None
         Name = "Carreras"
@@ -330,7 +322,6 @@ Partial Class Carreras
         Text = "Carreras"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -355,7 +346,6 @@ Partial Class Carreras
     Friend WithEvents btnmodificar As Button
     Friend WithEvents btnguardar As Button
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents btnatras As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Btncarrera As Button

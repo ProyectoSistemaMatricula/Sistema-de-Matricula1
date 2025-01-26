@@ -5,9 +5,9 @@ Public Class PaginaPrincipal
         Me.Hide()
     End Sub
 
-    Private Sub btnmatricula_Click(sender As Object, e As EventArgs) Handles btnmatricula.Click
-        Matricula.Show()
-        Me.Hide()
+    Private Sub btnmatricula_Click(sender As Object, e As EventArgs) Handles btnmatricula.Click, Button1.Click
+        Matricula.Show
+        Hide
     End Sub
 
     Private Sub btnestudiantes_Click(sender As Object, e As EventArgs) Handles btnestudiantes.Click

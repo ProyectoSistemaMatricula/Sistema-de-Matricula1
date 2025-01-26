@@ -35,9 +35,7 @@ Partial Class PaginaPrincipal
         Label4 = New Label()
         Label5 = New Label()
         Label6 = New Label()
-        PictureBox2 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' btnprematricula
@@ -98,6 +96,7 @@ Partial Class PaginaPrincipal
         ' Label1
         ' 
         Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(265, 47)
         Label1.Name = "Label1"
@@ -108,6 +107,7 @@ Partial Class PaginaPrincipal
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Stencil", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(407, 109)
         Label2.Name = "Label2"
@@ -118,6 +118,7 @@ Partial Class PaginaPrincipal
         ' Label3
         ' 
         Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
         Label3.Location = New Point(76, 392)
         Label3.Name = "Label3"
@@ -128,6 +129,7 @@ Partial Class PaginaPrincipal
         ' Label4
         ' 
         Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
         Label4.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
         Label4.Location = New Point(367, 392)
         Label4.Name = "Label4"
@@ -138,6 +140,7 @@ Partial Class PaginaPrincipal
         ' Label5
         ' 
         Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
         Label5.Location = New Point(638, 392)
         Label5.Name = "Label5"
@@ -148,6 +151,7 @@ Partial Class PaginaPrincipal
         ' Label6
         ' 
         Label6.AutoSize = True
+        Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold)
         Label6.Location = New Point(377, 594)
         Label6.Name = "Label6"
@@ -155,21 +159,13 @@ Partial Class PaginaPrincipal
         Label6.TabIndex = 12
         Label6.Text = "CARRERAS"
         ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(0, 1)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(833, 626)
-        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox2.TabIndex = 13
-        PictureBox2.TabStop = False
-        ' 
         ' PaginaPrincipal
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = SystemColors.ActiveCaption
+        BackColor = SystemColors.ControlLightLight
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(832, 626)
         Controls.Add(Label6)
         Controls.Add(Label5)
@@ -183,13 +179,11 @@ Partial Class PaginaPrincipal
         Controls.Add(btnestudiantes)
         Controls.Add(btnmatricula)
         Controls.Add(btnprematricula)
-        Controls.Add(PictureBox2)
         FormBorderStyle = FormBorderStyle.None
         Name = "PaginaPrincipal"
         StartPosition = FormStartPosition.CenterScreen
         Text = "PaginaPrincipal"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -206,5 +200,4 @@ Partial Class PaginaPrincipal
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents PictureBox2 As PictureBox
 End Class
