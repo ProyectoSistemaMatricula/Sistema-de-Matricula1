@@ -40,7 +40,6 @@ Partial Class Matricula
         Label14 = New Label()
         TextBox7 = New TextBox()
         DateTimePicker1 = New DateTimePicker()
-        TextBox6 = New TextBox()
         TextBox5 = New TextBox()
         TextBox4 = New TextBox()
         TextBox3 = New TextBox()
@@ -49,7 +48,6 @@ Partial Class Matricula
         Label7 = New Label()
         Label6 = New Label()
         Label5 = New Label()
-        Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label15 = New Label()
@@ -201,7 +199,7 @@ Partial Class Matricula
         ' 
         Label14.AutoSize = True
         Label14.Font = New Font("Rockwell", 10.2F)
-        Label14.Location = New Point(168, 118)
+        Label14.Location = New Point(166, 114)
         Label14.Name = "Label14"
         Label14.Size = New Size(158, 20)
         Label14.TabIndex = 23
@@ -223,19 +221,12 @@ Partial Class Matricula
         DateTimePicker1.Size = New Size(141, 27)
         DateTimePicker1.TabIndex = 97
         ' 
-        ' TextBox6
-        ' 
-        TextBox6.Location = New Point(291, 231)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(197, 27)
-        TextBox6.TabIndex = 96
-        ' 
         ' TextBox5
         ' 
         TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(598, 237)
+        TextBox5.Location = New Point(269, 237)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(189, 27)
+        TextBox5.Size = New Size(518, 27)
         TextBox5.TabIndex = 95
         ' 
         ' TextBox4
@@ -272,7 +263,7 @@ Partial Class Matricula
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(168, 237)
+        Label7.Location = New Point(508, 198)
         Label7.Name = "Label7"
         Label7.Size = New Size(79, 20)
         Label7.TabIndex = 90
@@ -282,7 +273,7 @@ Partial Class Matricula
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Rockwell", 10.2F)
-        Label6.Location = New Point(501, 238)
+        Label6.Location = New Point(166, 237)
         Label6.Name = "Label6"
         Label6.Size = New Size(86, 20)
         Label6.TabIndex = 89
@@ -298,31 +289,21 @@ Partial Class Matricula
         Label5.TabIndex = 88
         Label5.Text = "Fecha de Nacimiento"
         ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Rockwell", 10.2F)
-        Label4.Location = New Point(501, 202)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(92, 20)
-        Label4.TabIndex = 87
-        Label4.Text = "2°Apellido"
-        ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(168, 162)
+        Label3.Location = New Point(500, 160)
         Label3.Name = "Label3"
-        Label3.Size = New Size(92, 20)
+        Label3.Size = New Size(84, 20)
         Label3.TabIndex = 86
-        Label3.Text = "1°Apellido"
+        Label3.Text = "Apellidos"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(501, 159)
+        Label2.Location = New Point(166, 160)
         Label2.Name = "Label2"
         Label2.Size = New Size(81, 20)
         Label2.TabIndex = 85
@@ -332,11 +313,11 @@ Partial Class Matricula
         ' 
         Label15.AutoSize = True
         Label15.Font = New Font("Rockwell", 10.2F)
-        Label15.Location = New Point(501, 117)
+        Label15.Location = New Point(501, 112)
         Label15.Name = "Label15"
-        Label15.Size = New Size(123, 20)
+        Label15.Size = New Size(106, 20)
         Label15.TabIndex = 84
-        Label15.Text = "N° Documento"
+        Label15.Text = "N° Identidad"
         ' 
         ' PictureBox3
         ' 
@@ -454,7 +435,6 @@ Partial Class Matricula
         Controls.Add(Label1)
         Controls.Add(TextBox7)
         Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox6)
         Controls.Add(TextBox5)
         Controls.Add(TextBox4)
         Controls.Add(TextBox3)
@@ -463,7 +443,6 @@ Partial Class Matricula
         Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(Label5)
-        Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label15)
@@ -511,7 +490,6 @@ Partial Class Matricula
     Friend WithEvents Label14 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
@@ -520,7 +498,6 @@ Partial Class Matricula
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label15 As Label

@@ -27,14 +27,12 @@ Partial Class PreMatricula
         DateTimePicker1 = New DateTimePicker()
         TextBox6 = New TextBox()
         TextBox5 = New TextBox()
-        TextBox4 = New TextBox()
         TextBox3 = New TextBox()
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
         Label7 = New Label()
         Label6 = New Label()
         Label5 = New Label()
-        Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label15 = New Label()
@@ -67,33 +65,25 @@ Partial Class PreMatricula
         ' DateTimePicker1
         ' 
         DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(380, 203)
+        DateTimePicker1.Location = New Point(380, 213)
         DateTimePicker1.Name = "DateTimePicker1"
         DateTimePicker1.Size = New Size(141, 27)
         DateTimePicker1.TabIndex = 113
         ' 
         ' TextBox6
         ' 
-        TextBox6.Location = New Point(324, 239)
+        TextBox6.Location = New Point(631, 209)
         TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(197, 27)
+        TextBox6.Size = New Size(189, 27)
         TextBox6.TabIndex = 112
         ' 
         ' TextBox5
         ' 
         TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(631, 245)
+        TextBox5.Location = New Point(298, 257)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(189, 27)
+        TextBox5.Size = New Size(512, 27)
         TextBox5.TabIndex = 111
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Font = New Font("Segoe UI", 9F)
-        TextBox4.Location = New Point(631, 199)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(189, 27)
-        TextBox4.TabIndex = 110
         ' 
         ' TextBox3
         ' 
@@ -122,7 +112,7 @@ Partial Class PreMatricula
         Label7.AutoSize = True
         Label7.BackColor = Color.White
         Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(201, 245)
+        Label7.Location = New Point(533, 213)
         Label7.Name = "Label7"
         Label7.Size = New Size(79, 20)
         Label7.TabIndex = 106
@@ -133,7 +123,7 @@ Partial Class PreMatricula
         Label6.AutoSize = True
         Label6.BackColor = Color.White
         Label6.Font = New Font("Rockwell", 10.2F)
-        Label6.Location = New Point(534, 246)
+        Label6.Location = New Point(201, 258)
         Label6.Name = "Label6"
         Label6.Size = New Size(86, 20)
         Label6.TabIndex = 105
@@ -144,40 +134,29 @@ Partial Class PreMatricula
         Label5.AutoSize = True
         Label5.BackColor = Color.White
         Label5.Font = New Font("Rockwell", 10.2F)
-        Label5.Location = New Point(201, 206)
+        Label5.Location = New Point(201, 216)
         Label5.Name = "Label5"
         Label5.Size = New Size(174, 20)
         Label5.TabIndex = 104
         Label5.Text = "Fecha de Nacimiento"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.BackColor = Color.White
-        Label4.Font = New Font("Rockwell", 10.2F)
-        Label4.Location = New Point(534, 210)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(92, 20)
-        Label4.TabIndex = 103
-        Label4.Text = "2°Apellido"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.BackColor = Color.White
         Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(201, 170)
+        Label3.Location = New Point(533, 164)
         Label3.Name = "Label3"
-        Label3.Size = New Size(92, 20)
+        Label3.Size = New Size(84, 20)
         Label3.TabIndex = 102
-        Label3.Text = "1°Apellido"
+        Label3.Text = "Apellidos"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.BackColor = Color.White
         Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(534, 167)
+        Label2.Location = New Point(201, 171)
         Label2.Name = "Label2"
         Label2.Size = New Size(81, 20)
         Label2.TabIndex = 101
@@ -186,13 +165,14 @@ Partial Class PreMatricula
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.BackColor = Color.White
+        Label15.BackColor = Color.Transparent
+        Label15.FlatStyle = FlatStyle.Popup
         Label15.Font = New Font("Rockwell", 10.2F)
         Label15.Location = New Point(534, 125)
         Label15.Name = "Label15"
-        Label15.Size = New Size(123, 20)
+        Label15.Size = New Size(106, 20)
         Label15.TabIndex = 100
-        Label15.Text = "N° Documento"
+        Label15.Text = "N° identidad"
         ' 
         ' Label14
         ' 
@@ -347,14 +327,12 @@ Partial Class PreMatricula
         Controls.Add(DateTimePicker1)
         Controls.Add(TextBox6)
         Controls.Add(TextBox5)
-        Controls.Add(TextBox4)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
         Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(Label5)
-        Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label15)
@@ -373,14 +351,12 @@ Partial Class PreMatricula
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label15 As Label

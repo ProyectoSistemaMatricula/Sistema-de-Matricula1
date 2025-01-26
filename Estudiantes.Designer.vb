@@ -29,22 +29,6 @@ Partial Class Estudiantes
         btnguardar = New Button()
         btnnuevo = New Button()
         btnatras = New Button()
-        Label8 = New Label()
-        TextBox7 = New TextBox()
-        DateTimePicker1 = New DateTimePicker()
-        TextBox6 = New TextBox()
-        TextBox5 = New TextBox()
-        TextBox4 = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
-        Label7 = New Label()
-        Label6 = New Label()
-        Label5 = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label1 = New Label()
         PictureBox3 = New PictureBox()
         Label9 = New Label()
         PictureBox2 = New PictureBox()
@@ -122,151 +106,10 @@ Partial Class Estudiantes
         btnatras.TabIndex = 8
         btnatras.UseVisualStyleBackColor = True
         ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Rockwell", 10.2F)
-        Label8.Location = New Point(240, 153)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(121, 20)
-        Label8.TabIndex = 31
-        Label8.Text = "Cod.Matricula"
-        ' 
-        ' TextBox7
-        ' 
-        TextBox7.Font = New Font("Segoe UI", 9F)
-        TextBox7.Location = New Point(702, 142)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(157, 27)
-        TextBox7.TabIndex = 30
-        ' 
-        ' DateTimePicker1
-        ' 
-        DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(419, 228)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(141, 27)
-        DateTimePicker1.TabIndex = 29
-        ' 
-        ' TextBox6
-        ' 
-        TextBox6.Location = New Point(363, 264)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(197, 27)
-        TextBox6.TabIndex = 28
-        ' 
-        ' TextBox5
-        ' 
-        TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(670, 270)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(189, 27)
-        TextBox5.TabIndex = 27
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Font = New Font("Segoe UI", 9F)
-        TextBox4.Location = New Point(670, 224)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(189, 27)
-        TextBox4.TabIndex = 26
-        ' 
-        ' TextBox3
-        ' 
-        TextBox3.Location = New Point(363, 189)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(197, 27)
-        TextBox3.TabIndex = 25
-        ' 
-        ' TextBox2
-        ' 
-        TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(670, 186)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(189, 27)
-        TextBox2.TabIndex = 24
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(403, 144)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(157, 27)
-        TextBox1.TabIndex = 23
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(240, 270)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(79, 20)
-        Label7.TabIndex = 22
-        Label7.Text = "Teléfono"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Rockwell", 10.2F)
-        Label6.Location = New Point(573, 271)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(86, 20)
-        Label6.TabIndex = 21
-        Label6.Text = "Dirección"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Rockwell", 10.2F)
-        Label5.Location = New Point(240, 231)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(174, 20)
-        Label5.TabIndex = 20
-        Label5.Text = "Fecha de Nacimiento"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Rockwell", 10.2F)
-        Label4.Location = New Point(573, 235)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(92, 20)
-        Label4.TabIndex = 19
-        Label4.Text = "2°Apellido"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(240, 195)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(92, 20)
-        Label3.TabIndex = 18
-        Label3.Text = "1°Apellido"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(573, 192)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(81, 20)
-        Label2.TabIndex = 17
-        Label2.Text = "Nombres"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Rockwell", 10.2F)
-        Label1.Location = New Point(573, 150)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(123, 20)
-        Label1.TabIndex = 16
-        Label1.Text = "N° Documento"
-        ' 
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(196, -2)
+        PictureBox3.Location = New Point(184, 12)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(704, 764)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
@@ -329,22 +172,6 @@ Partial Class Estudiantes
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox2)
         Controls.Add(Label9)
-        Controls.Add(Label8)
-        Controls.Add(TextBox7)
-        Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox6)
-        Controls.Add(TextBox5)
-        Controls.Add(TextBox4)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
-        Controls.Add(Label7)
-        Controls.Add(Label6)
-        Controls.Add(Label5)
-        Controls.Add(Label4)
-        Controls.Add(Label3)
-        Controls.Add(Label2)
-        Controls.Add(Label1)
         Controls.Add(DataGridView1)
         Controls.Add(btnatras)
         Controls.Add(PictureBox3)
@@ -365,22 +192,6 @@ Partial Class Estudiantes
     Friend WithEvents btnguardar As Button
     Friend WithEvents btnnuevo As Button
     Friend WithEvents btnatras As Button
-    Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox2 As PictureBox
