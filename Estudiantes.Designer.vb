@@ -169,7 +169,7 @@ Partial Class Estudiantes
         TextBox7.Font = New Font("Segoe UI", 9F)
         TextBox7.Location = New Point(676, 132)
         TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(157, 27)
+        TextBox7.Size = New Size(189, 27)
         TextBox7.TabIndex = 112
         ' 
         ' DateTimePicker1
@@ -193,7 +193,7 @@ Partial Class Estudiantes
         ' 
         TextBox4.BorderStyle = BorderStyle.FixedSingle
         TextBox4.Font = New Font("Segoe UI", 9F)
-        TextBox4.Location = New Point(661, 214)
+        TextBox4.Location = New Point(676, 214)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(189, 27)
         TextBox4.TabIndex = 109
@@ -210,7 +210,7 @@ Partial Class Estudiantes
         ' 
         TextBox2.BorderStyle = BorderStyle.FixedSingle
         TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(661, 176)
+        TextBox2.Location = New Point(676, 176)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(189, 27)
         TextBox2.TabIndex = 107
