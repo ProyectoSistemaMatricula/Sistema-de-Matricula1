@@ -29,7 +29,6 @@ Partial Class Estudiantes
         btnguardar = New Button()
         btnnuevo = New Button()
         btnatras = New Button()
-        PictureBox3 = New PictureBox()
         Label9 = New Label()
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
@@ -51,7 +50,6 @@ Partial Class Estudiantes
         Label1 = New Label()
         TextBox6 = New TextBox()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -122,19 +120,10 @@ Partial Class Estudiantes
         btnatras.TabIndex = 8
         btnatras.UseVisualStyleBackColor = True
         ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(196, -2)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(704, 764)
-        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox3.TabIndex = 82
-        PictureBox3.TabStop = False
-        ' 
         ' Label9
         ' 
         Label9.AutoSize = True
+        Label9.BackColor = Color.Transparent
         Label9.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = Color.Black
         Label9.Location = New Point(274, 57)
@@ -176,6 +165,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox7
         ' 
+        TextBox7.BorderStyle = BorderStyle.FixedSingle
         TextBox7.Font = New Font("Segoe UI", 9F)
         TextBox7.Location = New Point(676, 132)
         TextBox7.Name = "TextBox7"
@@ -192,6 +182,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox5
         ' 
+        TextBox5.BorderStyle = BorderStyle.FixedSingle
         TextBox5.Font = New Font("Segoe UI", 9F)
         TextBox5.Location = New Point(396, 257)
         TextBox5.Name = "TextBox5"
@@ -200,6 +191,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox4
         ' 
+        TextBox4.BorderStyle = BorderStyle.FixedSingle
         TextBox4.Font = New Font("Segoe UI", 9F)
         TextBox4.Location = New Point(661, 214)
         TextBox4.Name = "TextBox4"
@@ -208,6 +200,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox3
         ' 
+        TextBox3.BorderStyle = BorderStyle.FixedSingle
         TextBox3.Location = New Point(354, 179)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(197, 27)
@@ -215,6 +208,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox2
         ' 
+        TextBox2.BorderStyle = BorderStyle.FixedSingle
         TextBox2.Font = New Font("Segoe UI", 9F)
         TextBox2.Location = New Point(661, 176)
         TextBox2.Name = "TextBox2"
@@ -223,6 +217,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox1
         ' 
+        TextBox1.BorderStyle = BorderStyle.FixedSingle
         TextBox1.Location = New Point(354, 130)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(197, 27)
@@ -231,6 +226,7 @@ Partial Class Estudiantes
         ' Label7
         ' 
         Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Rockwell", 10.2F)
         Label7.Location = New Point(571, 221)
         Label7.Name = "Label7"
@@ -241,6 +237,7 @@ Partial Class Estudiantes
         ' Label6
         ' 
         Label6.AutoSize = True
+        Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Rockwell", 10.2F)
         Label6.Location = New Point(229, 260)
         Label6.Name = "Label6"
@@ -251,6 +248,7 @@ Partial Class Estudiantes
         ' Label5
         ' 
         Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
         Label5.Location = New Point(231, 221)
         Label5.Name = "Label5"
@@ -261,6 +259,7 @@ Partial Class Estudiantes
         ' Label3
         ' 
         Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Rockwell", 10.2F)
         Label3.Location = New Point(563, 183)
         Label3.Name = "Label3"
@@ -271,6 +270,7 @@ Partial Class Estudiantes
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Rockwell", 10.2F)
         Label2.Location = New Point(229, 183)
         Label2.Name = "Label2"
@@ -281,6 +281,7 @@ Partial Class Estudiantes
         ' Label15
         ' 
         Label15.AutoSize = True
+        Label15.BackColor = Color.Transparent
         Label15.Font = New Font("Rockwell", 10.2F)
         Label15.Location = New Point(564, 135)
         Label15.Name = "Label15"
@@ -291,6 +292,7 @@ Partial Class Estudiantes
         ' lblidestudiante
         ' 
         lblidestudiante.AutoSize = True
+        lblidestudiante.BackColor = Color.Transparent
         lblidestudiante.Font = New Font("Rockwell", 10.2F)
         lblidestudiante.Location = New Point(229, 137)
         lblidestudiante.Name = "lblidestudiante"
@@ -301,6 +303,7 @@ Partial Class Estudiantes
         ' Label1
         ' 
         Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 10.2F)
         Label1.Location = New Point(229, 291)
         Label1.Name = "Label1"
@@ -310,6 +313,7 @@ Partial Class Estudiantes
         ' 
         ' TextBox6
         ' 
+        TextBox6.BorderStyle = BorderStyle.FixedSingle
         TextBox6.Font = New Font("Segoe UI", 9F)
         TextBox6.Location = New Point(354, 291)
         TextBox6.Name = "TextBox6"
@@ -321,6 +325,8 @@ Partial Class Estudiantes
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(900, 762)
         Controls.Add(TextBox6)
         Controls.Add(Label1)
@@ -348,13 +354,11 @@ Partial Class Estudiantes
         Controls.Add(Label9)
         Controls.Add(DataGridView1)
         Controls.Add(btnatras)
-        Controls.Add(PictureBox3)
         FormBorderStyle = FormBorderStyle.None
         Margin = New Padding(2)
         Name = "Estudiantes"
         Text = "Estudiantes"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
@@ -367,7 +371,6 @@ Partial Class Estudiantes
     Friend WithEvents btnguardar As Button
     Friend WithEvents btnnuevo As Button
     Friend WithEvents btnatras As Button
-    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
