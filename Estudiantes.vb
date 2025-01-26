@@ -1,4 +1,6 @@
-﻿Public Class Estudiantes
+﻿
+
+Public Class Estudiantes
 
 
     Private Sub btnatras_Click(sender As Object, e As EventArgs) Handles btnatras.Click
@@ -6,11 +8,11 @@
         PaginaPrincipal.Show()
     End Sub
 
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+    Private Sub btnguardar_Click(sender As Object, e As EventArgs) Handles btnguardar.Click
 
     End Sub
 
-    Private Sub btnnuevo_Click(sender As Object, e As EventArgs) Handles btnnuevo.Click
+    Private Sub Estudiantes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
