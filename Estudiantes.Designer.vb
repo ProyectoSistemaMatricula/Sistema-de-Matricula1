@@ -57,7 +57,7 @@ Partial Class Estudiantes
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(218, 345)
+        DataGridView1.Location = New Point(174, 344)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.Size = New Size(658, 384)
@@ -126,7 +126,7 @@ Partial Class Estudiantes
         Label9.BackColor = Color.Transparent
         Label9.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = Color.Black
-        Label9.Location = New Point(274, 57)
+        Label9.Location = New Point(230, 56)
         Label9.Name = "Label9"
         Label9.Size = New Size(521, 46)
         Label9.TabIndex = 83
@@ -167,7 +167,7 @@ Partial Class Estudiantes
         ' 
         TextBox7.BorderStyle = BorderStyle.FixedSingle
         TextBox7.Font = New Font("Segoe UI", 9F)
-        TextBox7.Location = New Point(676, 132)
+        TextBox7.Location = New Point(651, 131)
         TextBox7.Name = "TextBox7"
         TextBox7.Size = New Size(189, 27)
         TextBox7.TabIndex = 112
@@ -175,16 +175,16 @@ Partial Class Estudiantes
         ' DateTimePicker1
         ' 
         DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(410, 218)
+        DateTimePicker1.Location = New Point(345, 219)
         DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(141, 27)
+        DateTimePicker1.Size = New Size(195, 27)
         DateTimePicker1.TabIndex = 111
         ' 
         ' TextBox5
         ' 
         TextBox5.BorderStyle = BorderStyle.FixedSingle
         TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(396, 257)
+        TextBox5.Location = New Point(333, 258)
         TextBox5.Name = "TextBox5"
         TextBox5.Size = New Size(454, 27)
         TextBox5.TabIndex = 110
@@ -193,7 +193,7 @@ Partial Class Estudiantes
         ' 
         TextBox4.BorderStyle = BorderStyle.FixedSingle
         TextBox4.Font = New Font("Segoe UI", 9F)
-        TextBox4.Location = New Point(676, 214)
+        TextBox4.Location = New Point(651, 213)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(189, 27)
         TextBox4.TabIndex = 109
@@ -201,16 +201,16 @@ Partial Class Estudiantes
         ' TextBox3
         ' 
         TextBox3.BorderStyle = BorderStyle.FixedSingle
-        TextBox3.Location = New Point(354, 179)
+        TextBox3.Location = New Point(289, 180)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(197, 27)
+        TextBox3.Size = New Size(251, 27)
         TextBox3.TabIndex = 108
         ' 
         ' TextBox2
         ' 
         TextBox2.BorderStyle = BorderStyle.FixedSingle
         TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(676, 176)
+        TextBox2.Location = New Point(651, 175)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(189, 27)
         TextBox2.TabIndex = 107
@@ -218,9 +218,9 @@ Partial Class Estudiantes
         ' TextBox1
         ' 
         TextBox1.BorderStyle = BorderStyle.FixedSingle
-        TextBox1.Location = New Point(354, 130)
+        TextBox1.Location = New Point(289, 131)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(197, 27)
+        TextBox1.Size = New Size(251, 27)
         TextBox1.TabIndex = 106
         ' 
         ' Label7
@@ -228,7 +228,7 @@ Partial Class Estudiantes
         Label7.AutoSize = True
         Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(571, 221)
+        Label7.Location = New Point(554, 220)
         Label7.Name = "Label7"
         Label7.Size = New Size(49, 20)
         Label7.TabIndex = 105
@@ -239,7 +239,7 @@ Partial Class Estudiantes
         Label6.AutoSize = True
         Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Rockwell", 10.2F)
-        Label6.Location = New Point(229, 260)
+        Label6.Location = New Point(166, 261)
         Label6.Name = "Label6"
         Label6.Size = New Size(161, 20)
         Label6.TabIndex = 104
@@ -250,7 +250,7 @@ Partial Class Estudiantes
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
-        Label5.Location = New Point(231, 221)
+        Label5.Location = New Point(165, 222)
         Label5.Name = "Label5"
         Label5.Size = New Size(174, 20)
         Label5.TabIndex = 103
@@ -261,7 +261,7 @@ Partial Class Estudiantes
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(563, 183)
+        Label3.Location = New Point(546, 182)
         Label3.Name = "Label3"
         Label3.Size = New Size(84, 20)
         Label3.TabIndex = 102
@@ -272,7 +272,7 @@ Partial Class Estudiantes
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(229, 183)
+        Label2.Location = New Point(164, 184)
         Label2.Name = "Label2"
         Label2.Size = New Size(81, 20)
         Label2.TabIndex = 101
@@ -283,7 +283,7 @@ Partial Class Estudiantes
         Label15.AutoSize = True
         Label15.BackColor = Color.Transparent
         Label15.Font = New Font("Rockwell", 10.2F)
-        Label15.Location = New Point(564, 135)
+        Label15.Location = New Point(547, 134)
         Label15.Name = "Label15"
         Label15.Size = New Size(106, 20)
         Label15.TabIndex = 100
@@ -294,7 +294,7 @@ Partial Class Estudiantes
         lblidestudiante.AutoSize = True
         lblidestudiante.BackColor = Color.Transparent
         lblidestudiante.Font = New Font("Rockwell", 10.2F)
-        lblidestudiante.Location = New Point(229, 137)
+        lblidestudiante.Location = New Point(164, 138)
         lblidestudiante.Name = "lblidestudiante"
         lblidestudiante.Size = New Size(111, 20)
         lblidestudiante.TabIndex = 99
@@ -305,7 +305,7 @@ Partial Class Estudiantes
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 10.2F)
-        Label1.Location = New Point(229, 291)
+        Label1.Location = New Point(166, 292)
         Label1.Name = "Label1"
         Label1.Size = New Size(90, 20)
         Label1.TabIndex = 113
@@ -315,7 +315,7 @@ Partial Class Estudiantes
         ' 
         TextBox6.BorderStyle = BorderStyle.FixedSingle
         TextBox6.Font = New Font("Segoe UI", 9F)
-        TextBox6.Location = New Point(354, 291)
+        TextBox6.Location = New Point(291, 292)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(189, 27)
         TextBox6.TabIndex = 114

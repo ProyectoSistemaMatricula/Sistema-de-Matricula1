@@ -252,10 +252,10 @@ Partial Class Carreras
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(128, 473)
+        DataGridView1.Location = New Point(128, 397)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(758, 217)
+        DataGridView1.Size = New Size(758, 335)
         DataGridView1.TabIndex = 83
         ' 
         ' Label2
