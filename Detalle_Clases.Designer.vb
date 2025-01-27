@@ -40,29 +40,31 @@ Partial Class Detalle_Clases
         TextBox5 = New TextBox()
         Label5 = New Label()
         Label6 = New Label()
+        DataGridView1 = New DataGridView()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' TextBox3
         ' 
         TextBox3.Location = New Point(364, 151)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(176, 27)
+        TextBox3.Size = New Size(268, 27)
         TextBox3.TabIndex = 97
         ' 
         ' TextBox2
         ' 
         TextBox2.Location = New Point(364, 184)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(176, 27)
+        TextBox2.Size = New Size(268, 27)
         TextBox2.TabIndex = 96
         ' 
         ' TextBox1
         ' 
         TextBox1.Location = New Point(364, 118)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(176, 27)
+        TextBox1.Size = New Size(268, 27)
         TextBox1.TabIndex = 95
         ' 
         ' Label4
@@ -180,14 +182,14 @@ Partial Class Detalle_Clases
         ' 
         TextBox4.Location = New Point(364, 223)
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(176, 27)
+        TextBox4.Size = New Size(268, 27)
         TextBox4.TabIndex = 112
         ' 
         ' TextBox5
         ' 
-        TextBox5.Location = New Point(364, 271)
+        TextBox5.Location = New Point(364, 257)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(176, 27)
+        TextBox5.Size = New Size(268, 27)
         TextBox5.TabIndex = 111
         ' 
         ' Label5
@@ -195,7 +197,7 @@ Partial Class Detalle_Clases
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
-        Label5.Location = New Point(166, 278)
+        Label5.Location = New Point(166, 264)
         Label5.Name = "Label5"
         Label5.Size = New Size(92, 20)
         Label5.TabIndex = 110
@@ -212,6 +214,15 @@ Partial Class Detalle_Clases
         Label6.TabIndex = 109
         Label6.Text = "Docente"
         ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Location = New Point(113, 334)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(731, 478)
+        DataGridView1.TabIndex = 113
+        ' 
         ' Detalle_Clases
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -219,6 +230,7 @@ Partial Class Detalle_Clases
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(856, 847)
+        Controls.Add(DataGridView1)
         Controls.Add(TextBox4)
         Controls.Add(TextBox5)
         Controls.Add(Label5)
@@ -242,6 +254,7 @@ Partial Class Detalle_Clases
         Text = "Detalle_Clases"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -263,4 +276,5 @@ Partial Class Detalle_Clases
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents DataGridView1 As DataGridView
 End Class
