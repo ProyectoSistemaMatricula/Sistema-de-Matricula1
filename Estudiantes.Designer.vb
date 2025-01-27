@@ -76,6 +76,9 @@ Partial Class Estudiantes
         ' 
         ' btnmodificar
         ' 
+        btnmodificar.BackColor = Color.Transparent
+        btnmodificar.FlatAppearance.BorderSize = 0
+        btnmodificar.FlatStyle = FlatStyle.Flat
         btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
         btnmodificar.ImageAlign = ContentAlignment.TopCenter
         btnmodificar.Location = New Point(10, 471)
@@ -84,10 +87,13 @@ Partial Class Estudiantes
         btnmodificar.TabIndex = 11
         btnmodificar.Text = "Modificar"
         btnmodificar.TextAlign = ContentAlignment.BottomCenter
-        btnmodificar.UseVisualStyleBackColor = True
+        btnmodificar.UseVisualStyleBackColor = False
         ' 
         ' btnguardar
         ' 
+        btnguardar.BackColor = Color.Transparent
+        btnguardar.FlatAppearance.BorderSize = 0
+        btnguardar.FlatStyle = FlatStyle.Flat
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
         btnguardar.Location = New Point(10, 327)
@@ -96,10 +102,13 @@ Partial Class Estudiantes
         btnguardar.TabIndex = 10
         btnguardar.Text = "Guardar"
         btnguardar.TextAlign = ContentAlignment.BottomCenter
-        btnguardar.UseVisualStyleBackColor = True
+        btnguardar.UseVisualStyleBackColor = False
         ' 
         ' btnnuevo
         ' 
+        btnnuevo.BackColor = Color.Transparent
+        btnnuevo.FlatAppearance.BorderSize = 0
+        btnnuevo.FlatStyle = FlatStyle.Flat
         btnnuevo.Image = CType(resources.GetObject("btnnuevo.Image"), Image)
         btnnuevo.ImageAlign = ContentAlignment.TopCenter
         btnnuevo.Location = New Point(10, 175)
@@ -108,16 +117,19 @@ Partial Class Estudiantes
         btnnuevo.TabIndex = 9
         btnnuevo.Text = "Nuevo"
         btnnuevo.TextAlign = ContentAlignment.BottomCenter
-        btnnuevo.UseVisualStyleBackColor = True
+        btnnuevo.UseVisualStyleBackColor = False
         ' 
         ' btnatras
         ' 
+        btnatras.BackColor = Color.Transparent
+        btnatras.FlatAppearance.BorderSize = 0
+        btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
         btnatras.Location = New Point(774, 12)
         btnatras.Name = "btnatras"
         btnatras.Size = New Size(70, 66)
         btnatras.TabIndex = 8
-        btnatras.UseVisualStyleBackColor = True
+        btnatras.UseVisualStyleBackColor = False
         ' 
         ' Label9
         ' 
@@ -143,6 +155,7 @@ Partial Class Estudiantes
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackColor = Color.Transparent
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(23, 28)
         PictureBox1.Name = "PictureBox1"
