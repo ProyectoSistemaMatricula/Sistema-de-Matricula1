@@ -122,7 +122,7 @@ Partial Class Carrera
         btnatras.FlatAppearance.BorderSize = 0
         btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(771, 11)
+        btnatras.Location = New Point(771, 6)
         btnatras.Name = "btnatras"
         btnatras.Size = New Size(70, 66)
         btnatras.TabIndex = 109
