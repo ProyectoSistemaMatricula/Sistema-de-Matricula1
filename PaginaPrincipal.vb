@@ -1,8 +1,10 @@
 ﻿
+Imports Microsoft.Data.SqlClient
 
 
 Public Class PaginaPrincipal
 
+    Dim conexion As New SqlConnection("Data Source=DEB\SQLEXPRESS;Initial Catalog=SISTEMA_MATRICULA1;Integrated Security=True;")
 
 
 
