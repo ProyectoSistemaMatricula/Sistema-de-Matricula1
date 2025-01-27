@@ -22,7 +22,7 @@ Public Class PaginaPrincipal
     End Sub
 
     Private Sub btncarreras_Click(sender As Object, e As EventArgs) Handles btncarreras.Click
-        Carreras.Show()
+        Carrera.Show()
         Me.Hide()
     End Sub
 
