@@ -121,7 +121,7 @@
   <data name="btnprematricula.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADnMAAA5zATlgFakAAAAHdElNRQfpARYTDQgQmCpPAACO
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADnIAAA5yAesn900AAAAHdElNRQfpARYTDQgQmCpPAACO
         UklEQVR4Xu29d3wbVfY+PO6O0yB0EpfEKS5y7y2ucXqAkNB7X3pfYIGFJE5CTXNLobPLQuglkE56L27p
         3XGX5W7Lkua57+ecO2PLdgIksHx39/f+8XyuZiSNRjPPnHvuqYoQQvk9UIVNsQmhWDS0qzYFwqoIYVUg
         LIoqwO/zqJoVgXYFqllpt7QoEKoCQINgCFUCNomObe1zdBwJm/bbqgZxRuAsUCEUq3bOZrvzp30E0G+q
@@ -735,7 +735,7 @@
   <data name="btnmatricula.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADnMAAA5zATlgFakAAAAHdElNRQfpARYTEwDKAp2iAACf
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADnIAAA5yAesn900AAAAHdElNRQfpARYTEwDKAp2iAACf
         XklEQVR4Xsy9B5gUxfb/XT1hExnMESQuLBjIGQNBMQsqoERRESRnURFQzHpNN+d8r9erRJEcJUkwBySn
         zZNnOtSp9/me6p6dXRZUvP5/rzzHnunp6Znt/sypUyeVsFVESBUVpCyhJAnlKFdIKGkJRRa/RsoWtrKE
         rRwWqSwWIictUtpCSimIKC1KqUrPq4pSEu8zSNqGUtJIJaMGSZMfEzmGVMRiuyIV9lkGseA4iwXv0fuk
@@ -1422,7 +1422,7 @@
   <data name="btnestudiantes.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAACxEAAAsRAX9kX5EAAAAHdElNRQfpARYTFjifd9F5AADX
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAACxAAAAsQAa0jvXUAAAAHdElNRQfpARYTFjifd9F5AADX
         8UlEQVR4Xsx9dXxUV9fuOjYTxd2pUCqUllIK1HHXUoo78QT3QHC3KO7S4hRpKe4QJSFuEw+ukbGz9v2t
         fWZCoO37fq/c+90/FhMmM5M5+zx7ybNkAzIGJOx/KPbXa6KChVnBzCygqiowZMAsDJiZAdIjvQbp90bB
         ysyCmZkECzMLVsYEi5UJyJigMqugMjPQoxUtwJhqE6Z9pora59JzaBUYU7lYVaNgYVahlDHhpYqChT5T

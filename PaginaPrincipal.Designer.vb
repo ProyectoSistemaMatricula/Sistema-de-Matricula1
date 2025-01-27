@@ -103,7 +103,7 @@ Partial Class PaginaPrincipal
         btnsalir.FlatAppearance.BorderSize = 0
         btnsalir.FlatStyle = FlatStyle.Flat
         btnsalir.Image = CType(resources.GetObject("btnsalir.Image"), Image)
-        btnsalir.Location = New Point(756, 12)
+        btnsalir.Location = New Point(745, 12)
         btnsalir.Name = "btnsalir"
         btnsalir.Size = New Size(64, 62)
         btnsalir.TabIndex = 6
