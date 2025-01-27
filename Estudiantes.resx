@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
-    Microsoft ResX Schema
+    Microsoft ResX Schema 
 
     Version 2.0
 
@@ -48,7 +48,7 @@
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-
+    
     mimetype: application/x-microsoft.net.object.soap.base64
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
@@ -888,22 +888,6 @@
         C5SESUmYkiWAC5SESUmYkiWAC5SESamUK6RFOUouTlMSpihJmIIkYQqShClIEqYgSZiCJGEKkoQpSBKm
         IEmYgiRhCpKEKUgSpiCJsgpH6UMCuEBJmJSEKVkCuEBJmJSEKVkCuEBJmJSEKVkCuEBJmJSEKVkCuEBJ
         mJRKuUJalKPk4jQlYYqShClIEqYg+T+zpjdTn1h2tQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="btnimprimir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIYSURBVFhH7ZjP
-        SxVRGIYfstLUjUFJEEEptrBlZRAuWlYQFNX/Ui3cuJPSIqjIpSBo5d8gSLXJpf3aFy2EIEgM0njhHDh8
-        fHObOXfmuvC+8DDMuee833tn7jlz7kBX+1RHgYn/cAk4ZQc2rcfAbgmmQ7hJa9CUXjohPB4A54Bf4Qo2
-        rudOCI/7wGhyfs0a1a2ywe4BfcAj4CkwBfRYszpVNtgKcBY4FjgJnLBmdapsMI8X1qxOLTgFy7JozerU
-        OHAHuF0RjdHYbPUCN4C7BWh2XcnkquMXUU3VLtQF5xZ0CtUulBZDO6BTtFyI9ayzAzqFaheqG8whO9hm
-        TVjf7GDrwBhwEDjUJvKQ1wenTuVg54GLwFvgPfAukzhWNeRp61QOdj1s+p4BT4CZTLTJlIe85GnrVA72
-        HbgVPj8CjABnKqIx/cHjJvDNqVM5WGS4wtbaQ1f7uNMeyQ4mU2384vkP4DWwDLwyqO0N8DPpPxv2Zta3
-        lmAPk3OF0i71cHgAp6htAFhL+utLZQe77AyI6FamwcTfFuyYvgrW6laqdqFOh3Vrw0H/KXU7otEW8Bn4
-        FI4pavsK/En6zwFDjq9QTdXOVrq1XrIfGh0AVpP+jW6t02C/w5X5GI4pavsCbO9FsIh+Sx62X8eCaVZq
-        wdXMtGhmDppZ2Wiw9BWB1rG4ZnnYdWzemtWpdlf+xhRfQ2l/rmMZYl+N7Wr/6R8xSSIxqE+gYQAAAABJ
-        RU5ErkJggg==
 </value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
