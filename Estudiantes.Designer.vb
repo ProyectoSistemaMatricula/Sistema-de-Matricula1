@@ -128,7 +128,7 @@ Partial Class Estudiantes
         btnatras.FlatAppearance.BorderSize = 0
         btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(774, 12)
+        btnatras.Location = New Point(770, 12)
         btnatras.Name = "btnatras"
         btnatras.Size = New Size(70, 66)
         btnatras.TabIndex = 8
