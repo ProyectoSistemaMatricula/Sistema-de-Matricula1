@@ -125,7 +125,7 @@ Partial Class PreMatricula
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(311, 35)
+        Label1.Location = New Point(346, 33)
         Label1.Name = "Label1"
         Label1.Size = New Size(257, 46)
         Label1.TabIndex = 115
