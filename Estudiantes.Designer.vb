@@ -64,6 +64,9 @@ Partial Class Estudiantes
         ' 
         ' btneliminar
         ' 
+        btneliminar.BackColor = Color.Transparent
+        btneliminar.FlatAppearance.BorderSize = 0
+        btneliminar.FlatStyle = FlatStyle.Flat
         btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
         btneliminar.ImageAlign = ContentAlignment.TopCenter
         btneliminar.Location = New Point(10, 619)
@@ -72,7 +75,7 @@ Partial Class Estudiantes
         btneliminar.TabIndex = 12
         btneliminar.Text = "Eliminar"
         btneliminar.TextAlign = ContentAlignment.BottomCenter
-        btneliminar.UseVisualStyleBackColor = True
+        btneliminar.UseVisualStyleBackColor = False
         ' 
         ' btnmodificar
         ' 
