@@ -1,4 +1,7 @@
-﻿Public Class Login
+﻿
+
+Public Class Login
+
     Private Sub btnentrar_Click(sender As Object, e As EventArgs) Handles btnentrar.Click
         Dim usuario, password As String
         usuario = txtuser.Text
