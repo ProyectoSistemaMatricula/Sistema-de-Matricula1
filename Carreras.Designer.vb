@@ -24,19 +24,17 @@ Partial Class Carreras
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Carreras))
         ListMenu = New ListBox()
-        CheckBox10 = New CheckBox()
-        CheckBox9 = New CheckBox()
-        CheckBox8 = New CheckBox()
-        CheckBox7 = New CheckBox()
-        CheckBox6 = New CheckBox()
-        CheckBox5 = New CheckBox()
-        CheckBox4 = New CheckBox()
-        CheckBox3 = New CheckBox()
-        CheckBox2 = New CheckBox()
-        CheckBox1 = New CheckBox()
+        Chbcomunicacion = New CheckBox()
+        Chbindustrial = New CheckBox()
+        Chbcontaduria = New CheckBox()
+        Chbdiseño = New CheckBox()
+        Chbadministracion = New CheckBox()
+        Chbarquitectura = New CheckBox()
+        Chbpsicologia = New CheckBox()
+        Chbderecho = New CheckBox()
+        Chbmedicina = New CheckBox()
+        Chbsistemas = New CheckBox()
         Label1 = New Label()
-        Label8 = New Label()
-        ListBox1 = New ListBox()
         PictureBox1 = New PictureBox()
         btneliminar = New Button()
         btnmodificar = New Button()
@@ -44,8 +42,12 @@ Partial Class Carreras
         PictureBox2 = New PictureBox()
         btnatras = New Button()
         DataGridView1 = New DataGridView()
-        Btncarrera = New Button()
-        CheckBox11 = New CheckBox()
+        Label2 = New Label()
+        Label3 = New Label()
+        Label4 = New Label()
+        TextBox1 = New TextBox()
+        TextBox2 = New TextBox()
+        TextBox3 = New TextBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
@@ -55,110 +57,120 @@ Partial Class Carreras
         ' 
         ListMenu.FormattingEnabled = True
         ListMenu.Items.AddRange(New Object() {"Ingeniería en Sistemas", " Medicina", " Derecho", " Psicología", " Arquitectura", " Administración de Empresas", " Diseño Gráfico", " Contaduría Pública", " Ingeniería Industrial", "", "Comunicación Social"})
-        ListMenu.Location = New Point(403, 323)
+        ListMenu.Location = New Point(602, 136)
         ListMenu.Name = "ListMenu"
-        ListMenu.Size = New Size(434, 244)
+        ListMenu.Size = New Size(274, 244)
         ListMenu.TabIndex = 62
         ' 
-        ' CheckBox10
+        ' Chbcomunicacion
         ' 
-        CheckBox10.AutoSize = True
-        CheckBox10.Location = New Point(386, 529)
-        CheckBox10.Name = "CheckBox10"
-        CheckBox10.Size = New Size(111, 24)
-        CheckBox10.TabIndex = 72
-        CheckBox10.Text = "CheckBox10"
-        CheckBox10.UseVisualStyleBackColor = True
+        Chbcomunicacion.AutoSize = True
+        Chbcomunicacion.BackColor = Color.Transparent
+        Chbcomunicacion.Location = New Point(585, 336)
+        Chbcomunicacion.Name = "Chbcomunicacion"
+        Chbcomunicacion.Size = New Size(111, 24)
+        Chbcomunicacion.TabIndex = 72
+        Chbcomunicacion.Text = "CheckBox10"
+        Chbcomunicacion.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox9
+        ' Chbindustrial
         ' 
-        CheckBox9.AutoSize = True
-        CheckBox9.Location = New Point(386, 486)
-        CheckBox9.Name = "CheckBox9"
-        CheckBox9.Size = New Size(103, 24)
-        CheckBox9.TabIndex = 71
-        CheckBox9.Text = "CheckBox9"
-        CheckBox9.UseVisualStyleBackColor = True
+        Chbindustrial.AutoSize = True
+        Chbindustrial.BackColor = Color.Transparent
+        Chbindustrial.Location = New Point(585, 299)
+        Chbindustrial.Name = "Chbindustrial"
+        Chbindustrial.Size = New Size(103, 24)
+        Chbindustrial.TabIndex = 71
+        Chbindustrial.Text = "CheckBox9"
+        Chbindustrial.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox8
+        ' Chbcontaduria
         ' 
-        CheckBox8.AutoSize = True
-        CheckBox8.Location = New Point(386, 465)
-        CheckBox8.Name = "CheckBox8"
-        CheckBox8.Size = New Size(103, 24)
-        CheckBox8.TabIndex = 70
-        CheckBox8.Text = "CheckBox8"
-        CheckBox8.UseVisualStyleBackColor = True
+        Chbcontaduria.AutoSize = True
+        Chbcontaduria.BackColor = Color.Transparent
+        Chbcontaduria.Location = New Point(585, 278)
+        Chbcontaduria.Name = "Chbcontaduria"
+        Chbcontaduria.Size = New Size(103, 24)
+        Chbcontaduria.TabIndex = 70
+        Chbcontaduria.Text = "CheckBox8"
+        Chbcontaduria.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox7
+        ' Chbdiseño
         ' 
-        CheckBox7.AutoSize = True
-        CheckBox7.Location = New Point(386, 446)
-        CheckBox7.Name = "CheckBox7"
-        CheckBox7.Size = New Size(103, 24)
-        CheckBox7.TabIndex = 69
-        CheckBox7.Text = "CheckBox7"
-        CheckBox7.UseVisualStyleBackColor = True
+        Chbdiseño.AutoSize = True
+        Chbdiseño.BackColor = Color.Transparent
+        Chbdiseño.Location = New Point(585, 259)
+        Chbdiseño.Name = "Chbdiseño"
+        Chbdiseño.Size = New Size(103, 24)
+        Chbdiseño.TabIndex = 69
+        Chbdiseño.Text = "CheckBox7"
+        Chbdiseño.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox6
+        ' Chbadministracion
         ' 
-        CheckBox6.AutoSize = True
-        CheckBox6.Location = New Point(386, 425)
-        CheckBox6.Name = "CheckBox6"
-        CheckBox6.Size = New Size(103, 24)
-        CheckBox6.TabIndex = 68
-        CheckBox6.Text = "CheckBox6"
-        CheckBox6.UseVisualStyleBackColor = True
+        Chbadministracion.AutoSize = True
+        Chbadministracion.BackColor = Color.Transparent
+        Chbadministracion.Location = New Point(585, 238)
+        Chbadministracion.Name = "Chbadministracion"
+        Chbadministracion.Size = New Size(103, 24)
+        Chbadministracion.TabIndex = 68
+        Chbadministracion.Text = "CheckBox6"
+        Chbadministracion.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox5
+        ' Chbarquitectura
         ' 
-        CheckBox5.AutoSize = True
-        CheckBox5.Location = New Point(386, 406)
-        CheckBox5.Name = "CheckBox5"
-        CheckBox5.Size = New Size(103, 24)
-        CheckBox5.TabIndex = 67
-        CheckBox5.Text = "CheckBox5"
-        CheckBox5.UseVisualStyleBackColor = True
+        Chbarquitectura.AutoSize = True
+        Chbarquitectura.BackColor = Color.Transparent
+        Chbarquitectura.Location = New Point(585, 219)
+        Chbarquitectura.Name = "Chbarquitectura"
+        Chbarquitectura.Size = New Size(103, 24)
+        Chbarquitectura.TabIndex = 67
+        Chbarquitectura.Text = "CheckBox5"
+        Chbarquitectura.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox4
+        ' Chbpsicologia
         ' 
-        CheckBox4.AutoSize = True
-        CheckBox4.Location = New Point(386, 386)
-        CheckBox4.Name = "CheckBox4"
-        CheckBox4.Size = New Size(103, 24)
-        CheckBox4.TabIndex = 66
-        CheckBox4.Text = "CheckBox4"
-        CheckBox4.UseVisualStyleBackColor = True
+        Chbpsicologia.AutoSize = True
+        Chbpsicologia.BackColor = Color.Transparent
+        Chbpsicologia.Location = New Point(585, 199)
+        Chbpsicologia.Name = "Chbpsicologia"
+        Chbpsicologia.Size = New Size(103, 24)
+        Chbpsicologia.TabIndex = 66
+        Chbpsicologia.Text = "CheckBox4"
+        Chbpsicologia.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox3
+        ' Chbderecho
         ' 
-        CheckBox3.AutoSize = True
-        CheckBox3.Location = New Point(386, 365)
-        CheckBox3.Name = "CheckBox3"
-        CheckBox3.Size = New Size(103, 24)
-        CheckBox3.TabIndex = 65
-        CheckBox3.Text = "CheckBox3"
-        CheckBox3.UseVisualStyleBackColor = True
+        Chbderecho.AutoSize = True
+        Chbderecho.BackColor = Color.Transparent
+        Chbderecho.Location = New Point(585, 178)
+        Chbderecho.Name = "Chbderecho"
+        Chbderecho.Size = New Size(103, 24)
+        Chbderecho.TabIndex = 65
+        Chbderecho.Text = "CheckBox3"
+        Chbderecho.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox2
+        ' Chbmedicina
         ' 
-        CheckBox2.AutoSize = True
-        CheckBox2.Location = New Point(386, 344)
-        CheckBox2.Name = "CheckBox2"
-        CheckBox2.Size = New Size(103, 24)
-        CheckBox2.TabIndex = 64
-        CheckBox2.Text = "CheckBox2"
-        CheckBox2.UseVisualStyleBackColor = True
+        Chbmedicina.AutoSize = True
+        Chbmedicina.BackColor = Color.Transparent
+        Chbmedicina.Location = New Point(585, 157)
+        Chbmedicina.Name = "Chbmedicina"
+        Chbmedicina.Size = New Size(103, 24)
+        Chbmedicina.TabIndex = 64
+        Chbmedicina.Text = "CheckBox2"
+        Chbmedicina.UseVisualStyleBackColor = False
         ' 
-        ' CheckBox1
+        ' Chbsistemas
         ' 
-        CheckBox1.AutoSize = True
-        CheckBox1.Location = New Point(386, 323)
-        CheckBox1.Name = "CheckBox1"
-        CheckBox1.Size = New Size(103, 24)
-        CheckBox1.TabIndex = 63
-        CheckBox1.Text = "CheckBox1"
-        CheckBox1.UseVisualStyleBackColor = True
+        Chbsistemas.AutoSize = True
+        Chbsistemas.BackColor = Color.Transparent
+        Chbsistemas.Location = New Point(585, 136)
+        Chbsistemas.Name = "Chbsistemas"
+        Chbsistemas.Size = New Size(103, 24)
+        Chbsistemas.TabIndex = 63
+        Chbsistemas.Text = "CheckBox1"
+        Chbsistemas.UseVisualStyleBackColor = False
         ' 
         ' Label1
         ' 
@@ -166,31 +178,11 @@ Partial Class Carreras
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(403, 22)
+        Label1.Location = New Point(286, 41)
         Label1.Name = "Label1"
         Label1.Size = New Size(415, 46)
         Label1.TabIndex = 55
         Label1.Text = "Carreras Disponibles"
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.BackColor = Color.Transparent
-        Label8.Font = New Font("Rockwell", 10.2F)
-        Label8.ForeColor = Color.Black
-        Label8.Location = New Point(126, 22)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(135, 20)
-        Label8.TabIndex = 74
-        Label8.Text = "Carrera Elegida"
-        ' 
-        ' ListBox1
-        ' 
-        ListBox1.FormattingEnabled = True
-        ListBox1.Location = New Point(116, 45)
-        ListBox1.Name = "ListBox1"
-        ListBox1.Size = New Size(158, 124)
-        ListBox1.TabIndex = 73
         ' 
         ' PictureBox1
         ' 
@@ -206,7 +198,7 @@ Partial Class Carreras
         ' 
         btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
         btneliminar.ImageAlign = ContentAlignment.TopCenter
-        btneliminar.Location = New Point(13, 473)
+        btneliminar.Location = New Point(12, 518)
         btneliminar.Name = "btneliminar"
         btneliminar.Size = New Size(75, 81)
         btneliminar.TabIndex = 78
@@ -218,7 +210,7 @@ Partial Class Carreras
         ' 
         btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
         btnmodificar.ImageAlign = ContentAlignment.TopCenter
-        btnmodificar.Location = New Point(13, 302)
+        btnmodificar.Location = New Point(12, 347)
         btnmodificar.Name = "btnmodificar"
         btnmodificar.Size = New Size(75, 81)
         btnmodificar.TabIndex = 77
@@ -230,7 +222,7 @@ Partial Class Carreras
         ' 
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
-        btnguardar.Location = New Point(12, 136)
+        btnguardar.Location = New Point(11, 181)
         btnguardar.Name = "btnguardar"
         btnguardar.Size = New Size(75, 81)
         btnguardar.TabIndex = 76
@@ -243,7 +235,7 @@ Partial Class Carreras
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
         PictureBox2.Location = New Point(2, 1)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(96, 630)
+        PictureBox2.Size = New Size(96, 740)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 80
         PictureBox2.TabStop = False
@@ -260,30 +252,65 @@ Partial Class Carreras
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(320, 84)
+        DataGridView1.Location = New Point(128, 473)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(588, 217)
+        DataGridView1.Size = New Size(758, 217)
         DataGridView1.TabIndex = 83
         ' 
-        ' Btncarrera
+        ' Label2
         ' 
-        Btncarrera.Location = New Point(564, 573)
-        Btncarrera.Name = "Btncarrera"
-        Btncarrera.Size = New Size(130, 29)
-        Btncarrera.TabIndex = 84
-        Btncarrera.Text = "Tomar carrera"
-        Btncarrera.UseVisualStyleBackColor = True
+        Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
+        Label2.Font = New Font("Rockwell", 10.2F)
+        Label2.Location = New Point(128, 159)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(90, 20)
+        Label2.TabIndex = 86
+        Label2.Text = "Id Carrera"
         ' 
-        ' CheckBox11
+        ' Label3
         ' 
-        CheckBox11.AutoSize = True
-        CheckBox11.Location = New Point(625, 243)
-        CheckBox11.Name = "CheckBox11"
-        CheckBox11.Size = New Size(111, 24)
-        CheckBox11.TabIndex = 85
-        CheckBox11.Text = "CheckBox11"
-        CheckBox11.UseVisualStyleBackColor = True
+        Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Rockwell", 10.2F)
+        Label3.Location = New Point(128, 211)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(139, 20)
+        Label3.TabIndex = 87
+        Label3.Text = "Nombre Carrera"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Rockwell", 10.2F)
+        Label4.Location = New Point(128, 259)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(167, 20)
+        Label4.TabIndex = 88
+        Label4.Text = "Duracion Semestres"
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(326, 159)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(176, 27)
+        TextBox1.TabIndex = 89
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(326, 252)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(176, 27)
+        TextBox2.TabIndex = 90
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Location = New Point(326, 204)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(176, 27)
+        TextBox3.TabIndex = 91
         ' 
         ' Carreras
         ' 
@@ -292,30 +319,32 @@ Partial Class Carreras
         BackColor = Color.White
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(941, 626)
-        Controls.Add(Btncarrera)
+        ClientSize = New Size(941, 744)
+        Controls.Add(TextBox3)
+        Controls.Add(TextBox2)
+        Controls.Add(TextBox1)
+        Controls.Add(Label4)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
         Controls.Add(DataGridView1)
         Controls.Add(btnatras)
         Controls.Add(PictureBox1)
         Controls.Add(btneliminar)
         Controls.Add(btnmodificar)
         Controls.Add(btnguardar)
-        Controls.Add(Label8)
-        Controls.Add(ListBox1)
         Controls.Add(ListMenu)
-        Controls.Add(CheckBox10)
-        Controls.Add(CheckBox9)
-        Controls.Add(CheckBox8)
-        Controls.Add(CheckBox7)
-        Controls.Add(CheckBox6)
-        Controls.Add(CheckBox5)
-        Controls.Add(CheckBox4)
-        Controls.Add(CheckBox3)
-        Controls.Add(CheckBox2)
-        Controls.Add(CheckBox1)
+        Controls.Add(Chbcomunicacion)
+        Controls.Add(Chbindustrial)
+        Controls.Add(Chbcontaduria)
+        Controls.Add(Chbdiseño)
+        Controls.Add(Chbadministracion)
+        Controls.Add(Chbarquitectura)
+        Controls.Add(Chbpsicologia)
+        Controls.Add(Chbderecho)
+        Controls.Add(Chbmedicina)
+        Controls.Add(Chbsistemas)
         Controls.Add(Label1)
         Controls.Add(PictureBox2)
-        Controls.Add(CheckBox11)
         FormBorderStyle = FormBorderStyle.None
         Name = "Carreras"
         StartPosition = FormStartPosition.CenterScreen
@@ -328,19 +357,17 @@ Partial Class Carreras
     End Sub
 
     Friend WithEvents ListMenu As ListBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Chbcomunicacion As CheckBox
+    Friend WithEvents Chbindustrial As CheckBox
+    Friend WithEvents Chbcontaduria As CheckBox
+    Friend WithEvents Chbdiseño As CheckBox
+    Friend WithEvents Chbadministracion As CheckBox
+    Friend WithEvents Chbarquitectura As CheckBox
+    Friend WithEvents Chbpsicologia As CheckBox
+    Friend WithEvents Chbderecho As CheckBox
+    Friend WithEvents Chbmedicina As CheckBox
+    Friend WithEvents Chbsistemas As CheckBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents ListBox1 As ListBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btneliminar As Button
     Friend WithEvents btnmodificar As Button
@@ -348,6 +375,10 @@ Partial Class Carreras
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents btnatras As Button
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Btncarrera As Button
-    Friend WithEvents CheckBox11 As CheckBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
 End Class

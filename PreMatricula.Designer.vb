@@ -23,19 +23,13 @@ Partial Class PreMatricula
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PreMatricula))
-        TextBox7 = New TextBox()
         DateTimePicker1 = New DateTimePicker()
-        TextBox6 = New TextBox()
-        TextBox5 = New TextBox()
         TextBox3 = New TextBox()
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
-        Label7 = New Label()
-        Label6 = New Label()
         Label5 = New Label()
         Label3 = New Label()
         Label2 = New Label()
-        Label15 = New Label()
         Label14 = New Label()
         Label1 = New Label()
         btnatras = New Button()
@@ -52,40 +46,17 @@ Partial Class PreMatricula
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' TextBox7
-        ' 
-        TextBox7.Font = New Font("Segoe UI", 9F)
-        TextBox7.Location = New Point(663, 117)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(157, 27)
-        TextBox7.TabIndex = 114
-        ' 
         ' DateTimePicker1
         ' 
         DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(380, 213)
+        DateTimePicker1.Location = New Point(441, 274)
         DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(141, 27)
+        DateTimePicker1.Size = New Size(197, 27)
         DateTimePicker1.TabIndex = 113
-        ' 
-        ' TextBox6
-        ' 
-        TextBox6.Location = New Point(631, 209)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(189, 27)
-        TextBox6.TabIndex = 112
-        ' 
-        ' TextBox5
-        ' 
-        TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(298, 257)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(512, 27)
-        TextBox5.TabIndex = 111
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(324, 164)
+        TextBox3.Location = New Point(441, 181)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(197, 27)
         TextBox3.TabIndex = 109
@@ -93,95 +64,61 @@ Partial Class PreMatricula
         ' TextBox2
         ' 
         TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(631, 161)
+        TextBox2.Location = New Point(441, 226)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(189, 27)
+        TextBox2.Size = New Size(197, 27)
         TextBox2.TabIndex = 108
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(364, 119)
+        TextBox1.Location = New Point(441, 132)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(157, 27)
+        TextBox1.Size = New Size(197, 27)
         TextBox1.TabIndex = 107
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.BackColor = Color.Transparent
-        Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(533, 213)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(79, 20)
-        Label7.TabIndex = 106
-        Label7.Text = "Teléfono"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.BackColor = Color.Transparent
-        Label6.Font = New Font("Rockwell", 10.2F)
-        Label6.Location = New Point(201, 258)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(86, 20)
-        Label6.TabIndex = 105
-        Label6.Text = "Dirección"
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
-        Label5.Location = New Point(201, 216)
+        Label5.Location = New Point(262, 277)
         Label5.Name = "Label5"
-        Label5.Size = New Size(174, 20)
+        Label5.Size = New Size(167, 20)
         Label5.TabIndex = 104
-        Label5.Text = "Fecha de Nacimiento"
+        Label5.Text = "Fecha Pre-Matrícula"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(533, 164)
+        Label3.Location = New Point(262, 233)
         Label3.Name = "Label3"
-        Label3.Size = New Size(84, 20)
+        Label3.Size = New Size(90, 20)
         Label3.TabIndex = 102
-        Label3.Text = "Apellidos"
+        Label3.Text = "Id Carrera"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(201, 171)
+        Label2.Location = New Point(262, 184)
         Label2.Name = "Label2"
-        Label2.Size = New Size(81, 20)
+        Label2.Size = New Size(111, 20)
         Label2.TabIndex = 101
-        Label2.Text = "Nombres"
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.BackColor = Color.Transparent
-        Label15.FlatStyle = FlatStyle.Popup
-        Label15.Font = New Font("Rockwell", 10.2F)
-        Label15.Location = New Point(534, 125)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(106, 20)
-        Label15.TabIndex = 100
-        Label15.Text = "N° identidad"
+        Label2.Text = "Id Estudiante"
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
         Label14.BackColor = Color.Transparent
         Label14.Font = New Font("Rockwell", 10.2F)
-        Label14.Location = New Point(201, 126)
+        Label14.Location = New Point(262, 139)
         Label14.Name = "Label14"
-        Label14.Size = New Size(158, 20)
+        Label14.Size = New Size(135, 20)
         Label14.TabIndex = 99
-        Label14.Text = "Cod. Pre-Matricula"
+        Label14.Text = "Id Pre-Matricula"
         ' 
         ' Label1
         ' 
@@ -189,7 +126,7 @@ Partial Class PreMatricula
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(380, 56)
+        Label1.Location = New Point(311, 35)
         Label1.Name = "Label1"
         Label1.Size = New Size(257, 46)
         Label1.TabIndex = 115
@@ -210,7 +147,7 @@ Partial Class PreMatricula
         DataGridView1.BackgroundColor = SystemColors.ButtonFace
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.GridColor = SystemColors.HighlightText
-        DataGridView1.Location = New Point(201, 347)
+        DataGridView1.Location = New Point(161, 362)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.Size = New Size(609, 337)
@@ -313,19 +250,13 @@ Partial Class PreMatricula
         Controls.Add(DataGridView1)
         Controls.Add(btnatras)
         Controls.Add(Label1)
-        Controls.Add(TextBox7)
         Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox6)
-        Controls.Add(TextBox5)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
-        Controls.Add(Label7)
-        Controls.Add(Label6)
         Controls.Add(Label5)
         Controls.Add(Label3)
         Controls.Add(Label2)
-        Controls.Add(Label15)
         Controls.Add(Label14)
         FormBorderStyle = FormBorderStyle.None
         Name = "PreMatricula"
@@ -335,19 +266,13 @@ Partial Class PreMatricula
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents TextBox7 As TextBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label15 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btnatras As Button

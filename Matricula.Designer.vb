@@ -23,34 +23,14 @@ Partial Class Matricula
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Matricula))
-        ComboBox1 = New ComboBox()
-        Label10 = New Label()
-        Label9 = New Label()
         btnatras = New Button()
         DataGridView1 = New DataGridView()
-        ComboBox2 = New ComboBox()
-        ComboBox3 = New ComboBox()
-        ComboBox4 = New ComboBox()
-        ComboBox5 = New ComboBox()
-        ComboBox6 = New ComboBox()
-        Docente = New Label()
-        Label11 = New Label()
-        Label12 = New Label()
-        Label13 = New Label()
         Label14 = New Label()
-        TextBox7 = New TextBox()
-        DateTimePicker1 = New DateTimePicker()
-        TextBox5 = New TextBox()
-        TextBox4 = New TextBox()
         TextBox3 = New TextBox()
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
-        Label7 = New Label()
-        Label6 = New Label()
         Label5 = New Label()
-        Label3 = New Label()
         Label2 = New Label()
-        Label15 = New Label()
         Label1 = New Label()
         btnimprimir = New Button()
         btneliminar = New Button()
@@ -64,43 +44,13 @@ Partial Class Matricula
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' ComboBox1
-        ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(473, 321)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(114, 28)
-        ComboBox1.TabIndex = 18
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.BackColor = Color.Transparent
-        Label10.Font = New Font("Rockwell", 10.2F)
-        Label10.Location = New Point(396, 331)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(62, 20)
-        Label10.TabIndex = 17
-        Label10.Text = "Clases"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.BackColor = Color.Transparent
-        Label9.Font = New Font("Rockwell", 10.2F)
-        Label9.Location = New Point(189, 329)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(71, 20)
-        Label9.TabIndex = 16
-        Label9.Text = "Carrera"
-        ' 
         ' btnatras
         ' 
         btnatras.BackColor = Color.White
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(750, 3)
+        btnatras.Location = New Point(767, 24)
         btnatras.Name = "btnatras"
-        btnatras.Size = New Size(70, 67)
+        btnatras.Size = New Size(64, 65)
         btnatras.TabIndex = 1
         btnatras.UseVisualStyleBackColor = False
         ' 
@@ -109,95 +59,11 @@ Partial Class Matricula
         DataGridView1.BackgroundColor = SystemColors.ButtonFace
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.GridColor = SystemColors.HighlightText
-        DataGridView1.Location = New Point(168, 484)
+        DataGridView1.Location = New Point(166, 284)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(665, 337)
+        DataGridView1.Size = New Size(665, 516)
         DataGridView1.TabIndex = 6
-        ' 
-        ' ComboBox2
-        ' 
-        ComboBox2.FormattingEnabled = True
-        ComboBox2.Location = New Point(719, 323)
-        ComboBox2.Name = "ComboBox2"
-        ComboBox2.Size = New Size(114, 28)
-        ComboBox2.TabIndex = 18
-        ' 
-        ' ComboBox3
-        ' 
-        ComboBox3.FormattingEnabled = True
-        ComboBox3.Location = New Point(266, 323)
-        ComboBox3.Name = "ComboBox3"
-        ComboBox3.Size = New Size(114, 28)
-        ComboBox3.TabIndex = 18
-        ' 
-        ' ComboBox4
-        ' 
-        ComboBox4.FormattingEnabled = True
-        ComboBox4.Location = New Point(266, 379)
-        ComboBox4.Name = "ComboBox4"
-        ComboBox4.Size = New Size(114, 28)
-        ComboBox4.TabIndex = 18
-        ' 
-        ' ComboBox5
-        ' 
-        ComboBox5.FormattingEnabled = True
-        ComboBox5.Location = New Point(473, 372)
-        ComboBox5.Name = "ComboBox5"
-        ComboBox5.Size = New Size(114, 28)
-        ComboBox5.TabIndex = 18
-        ' 
-        ' ComboBox6
-        ' 
-        ComboBox6.FormattingEnabled = True
-        ComboBox6.Location = New Point(719, 374)
-        ComboBox6.Name = "ComboBox6"
-        ComboBox6.Size = New Size(114, 28)
-        ComboBox6.TabIndex = 18
-        ' 
-        ' Docente
-        ' 
-        Docente.AutoSize = True
-        Docente.BackColor = Color.Transparent
-        Docente.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Docente.Location = New Point(607, 329)
-        Docente.Name = "Docente"
-        Docente.Size = New Size(84, 21)
-        Docente.TabIndex = 19
-        Docente.Text = "Docente"
-        ' 
-        ' Label11
-        ' 
-        Label11.AutoSize = True
-        Label11.BackColor = Color.Transparent
-        Label11.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label11.Location = New Point(189, 381)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(40, 21)
-        Label11.TabIndex = 20
-        Label11.Text = "Dia"
-        ' 
-        ' Label12
-        ' 
-        Label12.AutoSize = True
-        Label12.BackColor = Color.Transparent
-        Label12.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label12.Location = New Point(396, 379)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(52, 21)
-        Label12.TabIndex = 21
-        Label12.Text = "Hora"
-        ' 
-        ' Label13
-        ' 
-        Label13.AutoSize = True
-        Label13.BackColor = Color.Transparent
-        Label13.Font = New Font("Rockwell", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label13.Location = New Point(607, 379)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(106, 21)
-        Label13.TabIndex = 22
-        Label13.Text = "Modalidad"
         ' 
         ' Label14
         ' 
@@ -206,45 +72,13 @@ Partial Class Matricula
         Label14.Font = New Font("Rockwell", 10.2F)
         Label14.Location = New Point(166, 114)
         Label14.Name = "Label14"
-        Label14.Size = New Size(158, 20)
+        Label14.Size = New Size(102, 20)
         Label14.TabIndex = 23
-        Label14.Text = "Cod. Pre-Matricula"
-        ' 
-        ' TextBox7
-        ' 
-        TextBox7.Font = New Font("Segoe UI", 9F)
-        TextBox7.Location = New Point(630, 109)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(157, 27)
-        TextBox7.TabIndex = 98
-        ' 
-        ' DateTimePicker1
-        ' 
-        DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(347, 195)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(141, 27)
-        DateTimePicker1.TabIndex = 97
-        ' 
-        ' TextBox5
-        ' 
-        TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(269, 237)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(518, 27)
-        TextBox5.TabIndex = 95
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Font = New Font("Segoe UI", 9F)
-        TextBox4.Location = New Point(598, 191)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(189, 27)
-        TextBox4.TabIndex = 94
+        Label14.Text = "Id Matricula"
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(291, 156)
+        TextBox3.Location = New Point(331, 153)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(197, 27)
         TextBox3.TabIndex = 93
@@ -252,39 +86,17 @@ Partial Class Matricula
         ' TextBox2
         ' 
         TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(598, 153)
+        TextBox2.Location = New Point(331, 191)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(189, 27)
+        TextBox2.Size = New Size(197, 27)
         TextBox2.TabIndex = 92
         ' 
         ' TextBox1
         ' 
         TextBox1.Location = New Point(331, 111)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(157, 27)
+        TextBox1.Size = New Size(197, 27)
         TextBox1.TabIndex = 91
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.BackColor = Color.Transparent
-        Label7.Font = New Font("Rockwell", 10.2F)
-        Label7.Location = New Point(508, 198)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(79, 20)
-        Label7.TabIndex = 90
-        Label7.Text = "Teléfono"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.BackColor = Color.Transparent
-        Label6.Font = New Font("Rockwell", 10.2F)
-        Label6.Location = New Point(166, 237)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(86, 20)
-        Label6.TabIndex = 89
-        Label6.Text = "Dirección"
         ' 
         ' Label5
         ' 
@@ -293,20 +105,9 @@ Partial Class Matricula
         Label5.Font = New Font("Rockwell", 10.2F)
         Label5.Location = New Point(168, 198)
         Label5.Name = "Label5"
-        Label5.Size = New Size(174, 20)
+        Label5.Size = New Size(56, 20)
         Label5.TabIndex = 88
-        Label5.Text = "Fecha de Nacimiento"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(500, 160)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(84, 20)
-        Label3.TabIndex = 86
-        Label3.Text = "Apellidos"
+        Label5.Text = "Fecha"
         ' 
         ' Label2
         ' 
@@ -315,20 +116,9 @@ Partial Class Matricula
         Label2.Font = New Font("Rockwell", 10.2F)
         Label2.Location = New Point(166, 160)
         Label2.Name = "Label2"
-        Label2.Size = New Size(81, 20)
+        Label2.Size = New Size(135, 20)
         Label2.TabIndex = 85
-        Label2.Text = "Nombres"
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.BackColor = Color.Transparent
-        Label15.Font = New Font("Rockwell", 10.2F)
-        Label15.Location = New Point(501, 112)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(106, 20)
-        Label15.TabIndex = 84
-        Label15.Text = "N° Identidad"
+        Label2.Text = "Id Pre-Matrícula"
         ' 
         ' Label1
         ' 
@@ -437,35 +227,15 @@ Partial Class Matricula
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox2)
         Controls.Add(Label1)
-        Controls.Add(TextBox7)
-        Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox5)
-        Controls.Add(TextBox4)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
-        Controls.Add(Label7)
-        Controls.Add(Label6)
         Controls.Add(Label5)
-        Controls.Add(Label3)
         Controls.Add(Label2)
-        Controls.Add(Label15)
         Controls.Add(Label14)
-        Controls.Add(Label13)
-        Controls.Add(Label12)
-        Controls.Add(Label11)
-        Controls.Add(Docente)
-        Controls.Add(Label10)
-        Controls.Add(ComboBox5)
-        Controls.Add(ComboBox6)
-        Controls.Add(ComboBox3)
-        Controls.Add(ComboBox2)
-        Controls.Add(ComboBox4)
-        Controls.Add(ComboBox1)
-        Controls.Add(Label9)
         Controls.Add(DataGridView1)
         Controls.Add(btnatras)
-        FormBorderStyle = FormBorderStyle.SizableToolWindow
+        FormBorderStyle = FormBorderStyle.None
         Name = "Matricula"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Matricula"
@@ -477,32 +247,12 @@ Partial Class Matricula
     End Sub
     Friend WithEvents btnatras As Button
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents ComboBox6 As ComboBox
-    Friend WithEvents Docente As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label15 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btnimprimir As Button
     Friend WithEvents btneliminar As Button
