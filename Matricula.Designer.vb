@@ -50,7 +50,7 @@ Partial Class Matricula
         btnatras.FlatAppearance.BorderSize = 0
         btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(767, 24)
+        btnatras.Location = New Point(765, 12)
         btnatras.Name = "btnatras"
         btnatras.Size = New Size(64, 65)
         btnatras.TabIndex = 1

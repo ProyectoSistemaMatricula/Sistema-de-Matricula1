@@ -11,6 +11,9 @@
     <Compile Update="Estudiantes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Matricula.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -18,9 +21,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Reporte.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Login.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PaginaPrincipal.vb">
