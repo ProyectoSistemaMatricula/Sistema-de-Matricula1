@@ -5,6 +5,9 @@
     <Compile Update="Carreras.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Detalle_Clases.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Estudiantes.vb">
       <SubType>Form</SubType>
     </Compile>
