@@ -57,7 +57,7 @@ Partial Class Carreras
         ' 
         ListMenu.FormattingEnabled = True
         ListMenu.Items.AddRange(New Object() {"Ingeniería en Sistemas", " Medicina", " Derecho", " Psicología", " Arquitectura", " Administración de Empresas", " Diseño Gráfico", " Contaduría Pública", " Ingeniería Industrial", "", "Comunicación Social"})
-        ListMenu.Location = New Point(543, 141)
+        ListMenu.Location = New Point(544, 141)
         ListMenu.Name = "ListMenu"
         ListMenu.Size = New Size(274, 244)
         ListMenu.TabIndex = 62
