@@ -75,7 +75,7 @@ Partial Class Login
         btnsalir.FlatAppearance.BorderSize = 0
         btnsalir.FlatStyle = FlatStyle.Flat
         btnsalir.Image = CType(resources.GetObject("btnsalir.Image"), Image)
-        btnsalir.Location = New Point(321, 336)
+        btnsalir.Location = New Point(326, 326)
         btnsalir.Name = "btnsalir"
         btnsalir.Size = New Size(94, 62)
         btnsalir.TabIndex = 6
