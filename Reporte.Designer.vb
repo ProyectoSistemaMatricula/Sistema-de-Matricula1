@@ -33,7 +33,6 @@ Partial Class Reporte
         FormBorderStyle = FormBorderStyle.None
         Name = "Reporte"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Clases"
         ResumeLayout(False)
     End Sub
 End Class
