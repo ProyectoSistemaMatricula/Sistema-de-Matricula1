@@ -133,7 +133,9 @@ Partial Class PreMatricula
         ' 
         ' btnatras
         ' 
-        btnatras.BackColor = Color.White
+        btnatras.BackColor = Color.Transparent
+        btnatras.FlatAppearance.BorderSize = 0
+        btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
         btnatras.Location = New Point(774, 12)
         btnatras.Name = "btnatras"
@@ -154,6 +156,9 @@ Partial Class PreMatricula
         ' 
         ' btneliminar
         ' 
+        btneliminar.BackColor = Color.Transparent
+        btneliminar.FlatAppearance.BorderSize = 0
+        btneliminar.FlatStyle = FlatStyle.Flat
         btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
         btneliminar.ImageAlign = ContentAlignment.TopCenter
         btneliminar.Location = New Point(12, 648)
@@ -162,10 +167,13 @@ Partial Class PreMatricula
         btneliminar.TabIndex = 122
         btneliminar.Text = "Eliminar"
         btneliminar.TextAlign = ContentAlignment.BottomCenter
-        btneliminar.UseVisualStyleBackColor = True
+        btneliminar.UseVisualStyleBackColor = False
         ' 
         ' btnmodificar
         ' 
+        btnmodificar.BackColor = Color.Transparent
+        btnmodificar.FlatAppearance.BorderSize = 0
+        btnmodificar.FlatStyle = FlatStyle.Flat
         btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
         btnmodificar.ImageAlign = ContentAlignment.TopCenter
         btnmodificar.Location = New Point(12, 491)
@@ -174,10 +182,13 @@ Partial Class PreMatricula
         btnmodificar.TabIndex = 121
         btnmodificar.Text = "Modificar"
         btnmodificar.TextAlign = ContentAlignment.BottomCenter
-        btnmodificar.UseVisualStyleBackColor = True
+        btnmodificar.UseVisualStyleBackColor = False
         ' 
         ' btnguardar
         ' 
+        btnguardar.BackColor = Color.Transparent
+        btnguardar.FlatAppearance.BorderSize = 0
+        btnguardar.FlatStyle = FlatStyle.Flat
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
         btnguardar.Location = New Point(12, 332)
@@ -186,10 +197,13 @@ Partial Class PreMatricula
         btnguardar.TabIndex = 120
         btnguardar.Text = "Guardar"
         btnguardar.TextAlign = ContentAlignment.BottomCenter
-        btnguardar.UseVisualStyleBackColor = True
+        btnguardar.UseVisualStyleBackColor = False
         ' 
         ' btnnuevo
         ' 
+        btnnuevo.BackColor = Color.Transparent
+        btnnuevo.FlatAppearance.BorderSize = 0
+        btnnuevo.FlatStyle = FlatStyle.Flat
         btnnuevo.Image = CType(resources.GetObject("btnnuevo.Image"), Image)
         btnnuevo.ImageAlign = ContentAlignment.TopCenter
         btnnuevo.Location = New Point(12, 181)
@@ -198,10 +212,11 @@ Partial Class PreMatricula
         btnnuevo.TabIndex = 119
         btnnuevo.Text = "Nuevo"
         btnnuevo.TextAlign = ContentAlignment.BottomCenter
-        btnnuevo.UseVisualStyleBackColor = True
+        btnnuevo.UseVisualStyleBackColor = False
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackColor = Color.Transparent
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(32, 38)
         PictureBox1.Name = "PictureBox1"
