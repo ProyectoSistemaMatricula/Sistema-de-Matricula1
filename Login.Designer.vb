@@ -34,8 +34,9 @@ Partial Class Login
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(113, 253)
+        Label2.Location = New Point(99, 250)
         Label2.Name = "Label2"
         Label2.Size = New Size(124, 23)
         Label2.TabIndex = 2
