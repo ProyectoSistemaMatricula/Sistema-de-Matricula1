@@ -135,7 +135,7 @@ Partial Class PreMatricula
         ' 
         btnatras.BackColor = Color.White
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(740, 35)
+        btnatras.Location = New Point(774, 12)
         btnatras.Name = "btnatras"
         btnatras.Size = New Size(70, 67)
         btnatras.TabIndex = 116
@@ -213,9 +213,9 @@ Partial Class PreMatricula
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(-1, 2)
+        PictureBox2.Location = New Point(-1, -5)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(119, 847)
+        PictureBox2.Size = New Size(119, 854)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 123
         PictureBox2.TabStop = False
