@@ -46,7 +46,9 @@ Partial Class Matricula
         ' 
         ' btnatras
         ' 
-        btnatras.BackColor = Color.White
+        btnatras.BackColor = Color.Transparent
+        btnatras.FlatAppearance.BorderSize = 0
+        btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
         btnatras.Location = New Point(767, 24)
         btnatras.Name = "btnatras"
@@ -134,6 +136,9 @@ Partial Class Matricula
         ' 
         ' btnimprimir
         ' 
+        btnimprimir.BackColor = Color.Transparent
+        btnimprimir.FlatAppearance.BorderSize = 0
+        btnimprimir.FlatStyle = FlatStyle.Flat
         btnimprimir.Image = CType(resources.GetObject("btnimprimir.Image"), Image)
         btnimprimir.Location = New Point(12, 703)
         btnimprimir.Name = "btnimprimir"
@@ -141,10 +146,13 @@ Partial Class Matricula
         btnimprimir.TabIndex = 109
         btnimprimir.Text = "Imprimir"
         btnimprimir.TextAlign = ContentAlignment.BottomCenter
-        btnimprimir.UseVisualStyleBackColor = True
+        btnimprimir.UseVisualStyleBackColor = False
         ' 
         ' btneliminar
         ' 
+        btneliminar.BackColor = Color.Transparent
+        btneliminar.FlatAppearance.BorderSize = 0
+        btneliminar.FlatStyle = FlatStyle.Flat
         btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
         btneliminar.ImageAlign = ContentAlignment.TopCenter
         btneliminar.Location = New Point(12, 562)
@@ -153,10 +161,13 @@ Partial Class Matricula
         btneliminar.TabIndex = 106
         btneliminar.Text = "Eliminar"
         btneliminar.TextAlign = ContentAlignment.BottomCenter
-        btneliminar.UseVisualStyleBackColor = True
+        btneliminar.UseVisualStyleBackColor = False
         ' 
         ' btnmodificar
         ' 
+        btnmodificar.BackColor = Color.Transparent
+        btnmodificar.FlatAppearance.BorderSize = 0
+        btnmodificar.FlatStyle = FlatStyle.Flat
         btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
         btnmodificar.ImageAlign = ContentAlignment.TopCenter
         btnmodificar.Location = New Point(12, 420)
@@ -165,10 +176,13 @@ Partial Class Matricula
         btnmodificar.TabIndex = 105
         btnmodificar.Text = "Modificar"
         btnmodificar.TextAlign = ContentAlignment.BottomCenter
-        btnmodificar.UseVisualStyleBackColor = True
+        btnmodificar.UseVisualStyleBackColor = False
         ' 
         ' btnguardar
         ' 
+        btnguardar.BackColor = Color.Transparent
+        btnguardar.FlatAppearance.BorderSize = 0
+        btnguardar.FlatStyle = FlatStyle.Flat
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
         btnguardar.Location = New Point(12, 284)
@@ -177,10 +191,13 @@ Partial Class Matricula
         btnguardar.TabIndex = 104
         btnguardar.Text = "Guardar"
         btnguardar.TextAlign = ContentAlignment.BottomCenter
-        btnguardar.UseVisualStyleBackColor = True
+        btnguardar.UseVisualStyleBackColor = False
         ' 
         ' btnnuevo
         ' 
+        btnnuevo.BackColor = Color.Transparent
+        btnnuevo.FlatAppearance.BorderSize = 0
+        btnnuevo.FlatStyle = FlatStyle.Flat
         btnnuevo.Image = CType(resources.GetObject("btnnuevo.Image"), Image)
         btnnuevo.ImageAlign = ContentAlignment.TopCenter
         btnnuevo.Location = New Point(12, 140)
@@ -189,10 +206,11 @@ Partial Class Matricula
         btnnuevo.TabIndex = 103
         btnnuevo.Text = "Nuevo"
         btnnuevo.TextAlign = ContentAlignment.BottomCenter
-        btnnuevo.UseVisualStyleBackColor = True
+        btnnuevo.UseVisualStyleBackColor = False
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackColor = Color.Transparent
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(24, 39)
         PictureBox1.Name = "PictureBox1"
