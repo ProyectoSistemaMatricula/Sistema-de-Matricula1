@@ -40,42 +40,55 @@ Partial Class PaginaPrincipal
         ' 
         ' btnprematricula
         ' 
+        btnprematricula.BackColor = Color.Transparent
+        btnprematricula.FlatAppearance.BorderSize = 0
+        btnprematricula.FlatStyle = FlatStyle.Flat
         btnprematricula.Image = CType(resources.GetObject("btnprematricula.Image"), Image)
         btnprematricula.Location = New Point(61, 225)
         btnprematricula.Name = "btnprematricula"
         btnprematricula.Size = New Size(172, 157)
         btnprematricula.TabIndex = 0
-        btnprematricula.UseVisualStyleBackColor = True
+        btnprematricula.UseVisualStyleBackColor = False
         ' 
         ' btnmatricula
         ' 
+        btnmatricula.BackColor = Color.Transparent
+        btnmatricula.FlatAppearance.BorderSize = 0
+        btnmatricula.FlatStyle = FlatStyle.Flat
         btnmatricula.Image = CType(resources.GetObject("btnmatricula.Image"), Image)
         btnmatricula.Location = New Point(338, 225)
         btnmatricula.Name = "btnmatricula"
         btnmatricula.Size = New Size(172, 157)
         btnmatricula.TabIndex = 1
-        btnmatricula.UseVisualStyleBackColor = True
+        btnmatricula.UseVisualStyleBackColor = False
         ' 
         ' btnestudiantes
         ' 
+        btnestudiantes.BackColor = Color.Transparent
+        btnestudiantes.FlatAppearance.BorderSize = 0
+        btnestudiantes.FlatStyle = FlatStyle.Flat
         btnestudiantes.Image = CType(resources.GetObject("btnestudiantes.Image"), Image)
         btnestudiantes.Location = New Point(608, 225)
         btnestudiantes.Name = "btnestudiantes"
         btnestudiantes.Size = New Size(172, 157)
         btnestudiantes.TabIndex = 2
-        btnestudiantes.UseVisualStyleBackColor = True
+        btnestudiantes.UseVisualStyleBackColor = False
         ' 
         ' btncarreras
         ' 
+        btncarreras.BackColor = Color.Transparent
+        btncarreras.FlatAppearance.BorderSize = 0
+        btncarreras.FlatStyle = FlatStyle.Flat
         btncarreras.Image = CType(resources.GetObject("btncarreras.Image"), Image)
         btncarreras.Location = New Point(338, 422)
         btncarreras.Name = "btncarreras"
-        btncarreras.Size = New Size(172, 157)
+        btncarreras.Size = New Size(172, 169)
         btncarreras.TabIndex = 3
-        btncarreras.UseVisualStyleBackColor = True
+        btncarreras.UseVisualStyleBackColor = False
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackColor = Color.Transparent
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(61, 47)
         PictureBox1.Name = "PictureBox1"
@@ -86,12 +99,15 @@ Partial Class PaginaPrincipal
         ' 
         ' btnsalir
         ' 
+        btnsalir.BackColor = Color.Transparent
+        btnsalir.FlatAppearance.BorderSize = 0
+        btnsalir.FlatStyle = FlatStyle.Flat
         btnsalir.Image = CType(resources.GetObject("btnsalir.Image"), Image)
         btnsalir.Location = New Point(756, 12)
         btnsalir.Name = "btnsalir"
         btnsalir.Size = New Size(64, 62)
         btnsalir.TabIndex = 6
-        btnsalir.UseVisualStyleBackColor = True
+        btnsalir.UseVisualStyleBackColor = False
         ' 
         ' Label1
         ' 
