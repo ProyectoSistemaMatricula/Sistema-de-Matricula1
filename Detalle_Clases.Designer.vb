@@ -102,37 +102,44 @@ Partial Class Detalle_Clases
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.BackColor = Color.Transparent
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(24, 21)
+        PictureBox1.Location = New Point(11, 12)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(51, 51)
+        PictureBox1.Size = New Size(74, 65)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 101
         PictureBox1.TabStop = False
         ' 
         ' btneliminar
         ' 
+        btneliminar.BackColor = Color.Transparent
+        btneliminar.FlatAppearance.BorderSize = 0
+        btneliminar.FlatStyle = FlatStyle.Flat
         btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
         btneliminar.ImageAlign = ContentAlignment.TopCenter
-        btneliminar.Location = New Point(12, 517)
+        btneliminar.Location = New Point(10, 528)
         btneliminar.Name = "btneliminar"
         btneliminar.Size = New Size(75, 81)
         btneliminar.TabIndex = 100
         btneliminar.Text = "Eliminar"
         btneliminar.TextAlign = ContentAlignment.BottomCenter
-        btneliminar.UseVisualStyleBackColor = True
+        btneliminar.UseVisualStyleBackColor = False
         ' 
         ' btnguardar
         ' 
+        btnguardar.BackColor = Color.Transparent
+        btnguardar.FlatAppearance.BorderSize = 0
+        btnguardar.FlatStyle = FlatStyle.Flat
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
-        btnguardar.Location = New Point(11, 180)
+        btnguardar.Location = New Point(10, 158)
         btnguardar.Name = "btnguardar"
         btnguardar.Size = New Size(75, 81)
         btnguardar.TabIndex = 98
         btnguardar.Text = "Guardar"
         btnguardar.TextAlign = ContentAlignment.BottomCenter
-        btnguardar.UseVisualStyleBackColor = True
+        btnguardar.UseVisualStyleBackColor = False
         ' 
         ' PictureBox2
         ' 
@@ -146,6 +153,9 @@ Partial Class Detalle_Clases
         ' 
         ' btnmodificar
         ' 
+        btnmodificar.BackColor = Color.Transparent
+        btnmodificar.FlatAppearance.BorderSize = 0
+        btnmodificar.FlatStyle = FlatStyle.Flat
         btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
         btnmodificar.ImageAlign = ContentAlignment.TopCenter
         btnmodificar.Location = New Point(2, 359)
@@ -154,7 +164,7 @@ Partial Class Detalle_Clases
         btnmodificar.TabIndex = 106
         btnmodificar.Text = "Modificar"
         btnmodificar.TextAlign = ContentAlignment.BottomCenter
-        btnmodificar.UseVisualStyleBackColor = True
+        btnmodificar.UseVisualStyleBackColor = False
         ' 
         ' Label1
         ' 
@@ -170,7 +180,9 @@ Partial Class Detalle_Clases
         ' 
         ' btnatras
         ' 
-        btnatras.BackColor = Color.White
+        btnatras.BackColor = Color.Transparent
+        btnatras.FlatAppearance.BorderSize = 0
+        btnatras.FlatStyle = FlatStyle.Flat
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
         btnatras.Location = New Point(780, 12)
         btnatras.Name = "btnatras"
