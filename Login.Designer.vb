@@ -58,21 +58,27 @@ Partial Class Login
         ' 
         ' btnentrar
         ' 
+        btnentrar.BackColor = Color.Transparent
+        btnentrar.FlatAppearance.BorderSize = 0
+        btnentrar.FlatStyle = FlatStyle.Flat
         btnentrar.Image = CType(resources.GetObject("btnentrar.Image"), Image)
         btnentrar.Location = New Point(154, 336)
         btnentrar.Name = "btnentrar"
         btnentrar.Size = New Size(94, 62)
         btnentrar.TabIndex = 5
-        btnentrar.UseVisualStyleBackColor = True
+        btnentrar.UseVisualStyleBackColor = False
         ' 
         ' btnsalir
         ' 
+        btnsalir.BackColor = Color.Transparent
+        btnsalir.FlatAppearance.BorderSize = 0
+        btnsalir.FlatStyle = FlatStyle.Flat
         btnsalir.Image = CType(resources.GetObject("btnsalir.Image"), Image)
         btnsalir.Location = New Point(321, 336)
         btnsalir.Name = "btnsalir"
         btnsalir.Size = New Size(94, 62)
         btnsalir.TabIndex = 6
-        btnsalir.UseVisualStyleBackColor = True
+        btnsalir.UseVisualStyleBackColor = False
         ' 
         ' Label1
         ' 
