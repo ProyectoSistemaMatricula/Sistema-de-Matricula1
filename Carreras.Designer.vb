@@ -57,7 +57,7 @@ Partial Class Carreras
         ' 
         ListMenu.FormattingEnabled = True
         ListMenu.Items.AddRange(New Object() {"Ingeniería en Sistemas", " Medicina", " Derecho", " Psicología", " Arquitectura", " Administración de Empresas", " Diseño Gráfico", " Contaduría Pública", " Ingeniería Industrial", "", "Comunicación Social"})
-        ListMenu.Location = New Point(602, 136)
+        ListMenu.Location = New Point(543, 141)
         ListMenu.Name = "ListMenu"
         ListMenu.Size = New Size(274, 244)
         ListMenu.TabIndex = 62
@@ -66,7 +66,7 @@ Partial Class Carreras
         ' 
         Chbcomunicacion.AutoSize = True
         Chbcomunicacion.BackColor = Color.Transparent
-        Chbcomunicacion.Location = New Point(585, 336)
+        Chbcomunicacion.Location = New Point(526, 341)
         Chbcomunicacion.Name = "Chbcomunicacion"
         Chbcomunicacion.Size = New Size(111, 24)
         Chbcomunicacion.TabIndex = 72
@@ -77,7 +77,7 @@ Partial Class Carreras
         ' 
         Chbindustrial.AutoSize = True
         Chbindustrial.BackColor = Color.Transparent
-        Chbindustrial.Location = New Point(585, 299)
+        Chbindustrial.Location = New Point(526, 304)
         Chbindustrial.Name = "Chbindustrial"
         Chbindustrial.Size = New Size(103, 24)
         Chbindustrial.TabIndex = 71
@@ -88,7 +88,7 @@ Partial Class Carreras
         ' 
         Chbcontaduria.AutoSize = True
         Chbcontaduria.BackColor = Color.Transparent
-        Chbcontaduria.Location = New Point(585, 278)
+        Chbcontaduria.Location = New Point(526, 283)
         Chbcontaduria.Name = "Chbcontaduria"
         Chbcontaduria.Size = New Size(103, 24)
         Chbcontaduria.TabIndex = 70
@@ -99,7 +99,7 @@ Partial Class Carreras
         ' 
         Chbdiseño.AutoSize = True
         Chbdiseño.BackColor = Color.Transparent
-        Chbdiseño.Location = New Point(585, 259)
+        Chbdiseño.Location = New Point(526, 264)
         Chbdiseño.Name = "Chbdiseño"
         Chbdiseño.Size = New Size(103, 24)
         Chbdiseño.TabIndex = 69
@@ -110,7 +110,7 @@ Partial Class Carreras
         ' 
         Chbadministracion.AutoSize = True
         Chbadministracion.BackColor = Color.Transparent
-        Chbadministracion.Location = New Point(585, 238)
+        Chbadministracion.Location = New Point(526, 243)
         Chbadministracion.Name = "Chbadministracion"
         Chbadministracion.Size = New Size(103, 24)
         Chbadministracion.TabIndex = 68
@@ -121,7 +121,7 @@ Partial Class Carreras
         ' 
         Chbarquitectura.AutoSize = True
         Chbarquitectura.BackColor = Color.Transparent
-        Chbarquitectura.Location = New Point(585, 219)
+        Chbarquitectura.Location = New Point(526, 224)
         Chbarquitectura.Name = "Chbarquitectura"
         Chbarquitectura.Size = New Size(103, 24)
         Chbarquitectura.TabIndex = 67
@@ -132,7 +132,7 @@ Partial Class Carreras
         ' 
         Chbpsicologia.AutoSize = True
         Chbpsicologia.BackColor = Color.Transparent
-        Chbpsicologia.Location = New Point(585, 199)
+        Chbpsicologia.Location = New Point(526, 204)
         Chbpsicologia.Name = "Chbpsicologia"
         Chbpsicologia.Size = New Size(103, 24)
         Chbpsicologia.TabIndex = 66
@@ -143,7 +143,7 @@ Partial Class Carreras
         ' 
         Chbderecho.AutoSize = True
         Chbderecho.BackColor = Color.Transparent
-        Chbderecho.Location = New Point(585, 178)
+        Chbderecho.Location = New Point(526, 183)
         Chbderecho.Name = "Chbderecho"
         Chbderecho.Size = New Size(103, 24)
         Chbderecho.TabIndex = 65
@@ -154,7 +154,7 @@ Partial Class Carreras
         ' 
         Chbmedicina.AutoSize = True
         Chbmedicina.BackColor = Color.Transparent
-        Chbmedicina.Location = New Point(585, 157)
+        Chbmedicina.Location = New Point(526, 162)
         Chbmedicina.Name = "Chbmedicina"
         Chbmedicina.Size = New Size(103, 24)
         Chbmedicina.TabIndex = 64
@@ -165,7 +165,7 @@ Partial Class Carreras
         ' 
         Chbsistemas.AutoSize = True
         Chbsistemas.BackColor = Color.Transparent
-        Chbsistemas.Location = New Point(585, 136)
+        Chbsistemas.Location = New Point(526, 141)
         Chbsistemas.Name = "Chbsistemas"
         Chbsistemas.Size = New Size(103, 24)
         Chbsistemas.TabIndex = 63
@@ -178,7 +178,7 @@ Partial Class Carreras
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(286, 41)
+        Label1.Location = New Point(222, 27)
         Label1.Name = "Label1"
         Label1.Size = New Size(415, 46)
         Label1.TabIndex = 55
@@ -233,9 +233,9 @@ Partial Class Carreras
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(2, 1)
+        PictureBox2.Location = New Point(-1, 0)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(96, 740)
+        PictureBox2.Size = New Size(96, 851)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 80
         PictureBox2.TabStop = False
@@ -243,7 +243,7 @@ Partial Class Carreras
         ' btnatras
         ' 
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(859, 12)
+        btnatras.Location = New Point(774, 12)
         btnatras.Name = "btnatras"
         btnatras.Size = New Size(70, 66)
         btnatras.TabIndex = 82
@@ -252,10 +252,10 @@ Partial Class Carreras
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(128, 397)
+        DataGridView1.Location = New Point(101, 405)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(758, 335)
+        DataGridView1.Size = New Size(743, 430)
         DataGridView1.TabIndex = 83
         ' 
         ' Label2
@@ -319,7 +319,7 @@ Partial Class Carreras
         BackColor = Color.White
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(941, 744)
+        ClientSize = New Size(856, 847)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
