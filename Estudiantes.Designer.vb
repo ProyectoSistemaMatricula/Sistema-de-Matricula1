@@ -32,13 +32,13 @@ Partial Class Estudiantes
         Label9 = New Label()
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
-        TextBox7 = New TextBox()
-        DateTimePicker1 = New DateTimePicker()
-        TextBox5 = New TextBox()
-        TextBox4 = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        txtidentidadestu = New TextBox()
+        dtpfechaestu = New DateTimePicker()
+        txtcorreoestu = New TextBox()
+        txtedadestu = New TextBox()
+        txtnombresestu = New TextBox()
+        txtapellidosestu = New TextBox()
+        txtidestudiante = New TextBox()
         Label7 = New Label()
         Label6 = New Label()
         Label5 = New Label()
@@ -47,7 +47,7 @@ Partial Class Estudiantes
         Label15 = New Label()
         lblidestudiante = New Label()
         Label1 = New Label()
-        TextBox6 = New TextBox()
+        txtidcarreraestu = New TextBox()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -164,65 +164,65 @@ Partial Class Estudiantes
         PictureBox1.TabIndex = 85
         PictureBox1.TabStop = False
         ' 
-        ' TextBox7
+        ' txtidentidadestu
         ' 
-        TextBox7.BorderStyle = BorderStyle.FixedSingle
-        TextBox7.Font = New Font("Segoe UI", 9F)
-        TextBox7.Location = New Point(651, 131)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(189, 27)
-        TextBox7.TabIndex = 112
+        txtidentidadestu.BorderStyle = BorderStyle.FixedSingle
+        txtidentidadestu.Font = New Font("Segoe UI", 9F)
+        txtidentidadestu.Location = New Point(651, 131)
+        txtidentidadestu.Name = "txtidentidadestu"
+        txtidentidadestu.Size = New Size(189, 27)
+        txtidentidadestu.TabIndex = 112
         ' 
-        ' DateTimePicker1
+        ' dtpfechaestu
         ' 
-        DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(345, 219)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(195, 27)
-        DateTimePicker1.TabIndex = 111
+        dtpfechaestu.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        dtpfechaestu.Location = New Point(345, 219)
+        dtpfechaestu.Name = "dtpfechaestu"
+        dtpfechaestu.Size = New Size(195, 27)
+        dtpfechaestu.TabIndex = 111
         ' 
-        ' TextBox5
+        ' txtcorreoestu
         ' 
-        TextBox5.BorderStyle = BorderStyle.FixedSingle
-        TextBox5.Font = New Font("Segoe UI", 9F)
-        TextBox5.Location = New Point(333, 258)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(454, 27)
-        TextBox5.TabIndex = 110
+        txtcorreoestu.BorderStyle = BorderStyle.FixedSingle
+        txtcorreoestu.Font = New Font("Segoe UI", 9F)
+        txtcorreoestu.Location = New Point(333, 258)
+        txtcorreoestu.Name = "txtcorreoestu"
+        txtcorreoestu.Size = New Size(454, 27)
+        txtcorreoestu.TabIndex = 110
         ' 
-        ' TextBox4
+        ' txtedadestu
         ' 
-        TextBox4.BorderStyle = BorderStyle.FixedSingle
-        TextBox4.Font = New Font("Segoe UI", 9F)
-        TextBox4.Location = New Point(651, 213)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(189, 27)
-        TextBox4.TabIndex = 109
+        txtedadestu.BorderStyle = BorderStyle.FixedSingle
+        txtedadestu.Font = New Font("Segoe UI", 9F)
+        txtedadestu.Location = New Point(651, 213)
+        txtedadestu.Name = "txtedadestu"
+        txtedadestu.Size = New Size(189, 27)
+        txtedadestu.TabIndex = 109
         ' 
-        ' TextBox3
+        ' txtnombresestu
         ' 
-        TextBox3.BorderStyle = BorderStyle.FixedSingle
-        TextBox3.Location = New Point(289, 180)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(251, 27)
-        TextBox3.TabIndex = 108
+        txtnombresestu.BorderStyle = BorderStyle.FixedSingle
+        txtnombresestu.Location = New Point(289, 180)
+        txtnombresestu.Name = "txtnombresestu"
+        txtnombresestu.Size = New Size(251, 27)
+        txtnombresestu.TabIndex = 108
         ' 
-        ' TextBox2
+        ' txtapellidosestu
         ' 
-        TextBox2.BorderStyle = BorderStyle.FixedSingle
-        TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(651, 175)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(189, 27)
-        TextBox2.TabIndex = 107
+        txtapellidosestu.BorderStyle = BorderStyle.FixedSingle
+        txtapellidosestu.Font = New Font("Segoe UI", 9F)
+        txtapellidosestu.Location = New Point(651, 175)
+        txtapellidosestu.Name = "txtapellidosestu"
+        txtapellidosestu.Size = New Size(189, 27)
+        txtapellidosestu.TabIndex = 107
         ' 
-        ' TextBox1
+        ' txtidestudiante
         ' 
-        TextBox1.BorderStyle = BorderStyle.FixedSingle
-        TextBox1.Location = New Point(289, 131)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(251, 27)
-        TextBox1.TabIndex = 106
+        txtidestudiante.BorderStyle = BorderStyle.FixedSingle
+        txtidestudiante.Location = New Point(289, 131)
+        txtidestudiante.Name = "txtidestudiante"
+        txtidestudiante.Size = New Size(251, 27)
+        txtidestudiante.TabIndex = 106
         ' 
         ' Label7
         ' 
@@ -312,14 +312,14 @@ Partial Class Estudiantes
         Label1.TabIndex = 113
         Label1.Text = "Id Carrera"
         ' 
-        ' TextBox6
+        ' txtidcarreraestu
         ' 
-        TextBox6.BorderStyle = BorderStyle.FixedSingle
-        TextBox6.Font = New Font("Segoe UI", 9F)
-        TextBox6.Location = New Point(291, 292)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(189, 27)
-        TextBox6.TabIndex = 114
+        txtidcarreraestu.BorderStyle = BorderStyle.FixedSingle
+        txtidcarreraestu.Font = New Font("Segoe UI", 9F)
+        txtidcarreraestu.Location = New Point(291, 292)
+        txtidcarreraestu.Name = "txtidcarreraestu"
+        txtidcarreraestu.Size = New Size(189, 27)
+        txtidcarreraestu.TabIndex = 114
         ' 
         ' Estudiantes
         ' 
@@ -329,15 +329,15 @@ Partial Class Estudiantes
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(856, 847)
-        Controls.Add(TextBox6)
+        Controls.Add(txtidcarreraestu)
         Controls.Add(Label1)
-        Controls.Add(TextBox7)
-        Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox5)
-        Controls.Add(TextBox4)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(txtidentidadestu)
+        Controls.Add(dtpfechaestu)
+        Controls.Add(txtcorreoestu)
+        Controls.Add(txtedadestu)
+        Controls.Add(txtnombresestu)
+        Controls.Add(txtapellidosestu)
+        Controls.Add(txtidestudiante)
         Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(Label5)
@@ -375,13 +375,13 @@ Partial Class Estudiantes
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtidentidadestu As TextBox
+    Friend WithEvents dtpfechaestu As DateTimePicker
+    Friend WithEvents txtcorreoestu As TextBox
+    Friend WithEvents txtedadestu As TextBox
+    Friend WithEvents txtnombresestu As TextBox
+    Friend WithEvents txtapellidosestu As TextBox
+    Friend WithEvents txtidestudiante As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
@@ -390,5 +390,5 @@ Partial Class Estudiantes
     Friend WithEvents Label15 As Label
     Friend WithEvents lblidestudiante As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtidcarreraestu As TextBox
 End Class

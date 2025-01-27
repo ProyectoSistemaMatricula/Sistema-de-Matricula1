@@ -15,4 +15,13 @@ Public Class Estudiantes
     Private Sub Estudiantes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnnuevo_Click(sender As Object, e As EventArgs) Handles btnnuevo.Click
+        txtidentidadestu.Clear()
+        txtnombresestu.Clear()
+        txtapellidosestu.Clear()
+        txtcorreoestu.Clear()
+        txtedadestu.Clear()
+        txtidcarreraestu.Clear()
+    End Sub
 End Class
