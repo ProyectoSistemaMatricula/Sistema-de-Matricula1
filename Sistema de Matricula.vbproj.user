@@ -5,19 +5,19 @@
     <Compile Update="Carreras.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Detalle_Clases.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Estudiantes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PreMatricula.vb">
+    <Compile Update="Matricula.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Reporte.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Matricula.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PaginaPrincipal.vb">

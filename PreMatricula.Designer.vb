@@ -48,35 +48,31 @@ Partial Class PreMatricula
         ' DateTimePicker1
         ' 
         DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DateTimePicker1.Location = New Point(551, 342)
-        DateTimePicker1.Margin = New Padding(4, 4, 4, 4)
+        DateTimePicker1.Location = New Point(441, 274)
         DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(245, 31)
+        DateTimePicker1.Size = New Size(197, 27)
         DateTimePicker1.TabIndex = 113
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(551, 226)
-        TextBox3.Margin = New Padding(4, 4, 4, 4)
+        TextBox3.Location = New Point(441, 181)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(245, 31)
+        TextBox3.Size = New Size(197, 27)
         TextBox3.TabIndex = 109
         ' 
         ' TextBox2
         ' 
         TextBox2.Font = New Font("Segoe UI", 9F)
-        TextBox2.Location = New Point(551, 282)
-        TextBox2.Margin = New Padding(4, 4, 4, 4)
+        TextBox2.Location = New Point(441, 226)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(245, 31)
+        TextBox2.Size = New Size(197, 27)
         TextBox2.TabIndex = 108
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(551, 165)
-        TextBox1.Margin = New Padding(4, 4, 4, 4)
+        TextBox1.Location = New Point(441, 132)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(245, 31)
+        TextBox1.Size = New Size(197, 27)
         TextBox1.TabIndex = 107
         ' 
         ' Label5
@@ -84,10 +80,9 @@ Partial Class PreMatricula
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Rockwell", 10.2F)
-        Label5.Location = New Point(328, 346)
-        Label5.Margin = New Padding(4, 0, 4, 0)
+        Label5.Location = New Point(262, 277)
         Label5.Name = "Label5"
-        Label5.Size = New Size(203, 23)
+        Label5.Size = New Size(167, 20)
         Label5.TabIndex = 104
         Label5.Text = "Fecha Pre-Matrícula"
         ' 
@@ -96,10 +91,9 @@ Partial Class PreMatricula
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Rockwell", 10.2F)
-        Label3.Location = New Point(328, 291)
-        Label3.Margin = New Padding(4, 0, 4, 0)
+        Label3.Location = New Point(262, 233)
         Label3.Name = "Label3"
-        Label3.Size = New Size(112, 23)
+        Label3.Size = New Size(90, 20)
         Label3.TabIndex = 102
         Label3.Text = "Id Carrera"
         ' 
@@ -108,10 +102,9 @@ Partial Class PreMatricula
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Rockwell", 10.2F)
-        Label2.Location = New Point(328, 230)
-        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Location = New Point(262, 184)
         Label2.Name = "Label2"
-        Label2.Size = New Size(136, 23)
+        Label2.Size = New Size(111, 20)
         Label2.TabIndex = 101
         Label2.Text = "Id Estudiante"
         ' 
@@ -120,10 +113,9 @@ Partial Class PreMatricula
         Label14.AutoSize = True
         Label14.BackColor = Color.Transparent
         Label14.Font = New Font("Rockwell", 10.2F)
-        Label14.Location = New Point(328, 174)
-        Label14.Margin = New Padding(4, 0, 4, 0)
+        Label14.Location = New Point(262, 139)
         Label14.Name = "Label14"
-        Label14.Size = New Size(165, 23)
+        Label14.Size = New Size(135, 20)
         Label14.TabIndex = 99
         Label14.Text = "Id Pre-Matricula"
         ' 
@@ -133,10 +125,9 @@ Partial Class PreMatricula
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Rockwell", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(389, 44)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(311, 35)
         Label1.Name = "Label1"
-        Label1.Size = New Size(305, 54)
+        Label1.Size = New Size(257, 46)
         Label1.TabIndex = 115
         Label1.Text = "Prematrícula"
         ' 
@@ -144,10 +135,9 @@ Partial Class PreMatricula
         ' 
         btnatras.BackColor = Color.White
         btnatras.Image = CType(resources.GetObject("btnatras.Image"), Image)
-        btnatras.Location = New Point(925, 44)
-        btnatras.Margin = New Padding(4, 4, 4, 4)
+        btnatras.Location = New Point(740, 35)
         btnatras.Name = "btnatras"
-        btnatras.Size = New Size(88, 84)
+        btnatras.Size = New Size(70, 67)
         btnatras.TabIndex = 116
         btnatras.UseVisualStyleBackColor = False
         ' 
@@ -156,21 +146,19 @@ Partial Class PreMatricula
         DataGridView1.BackgroundColor = SystemColors.ButtonFace
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.GridColor = SystemColors.HighlightText
-        DataGridView1.Location = New Point(201, 452)
-        DataGridView1.Margin = New Padding(4, 4, 4, 4)
+        DataGridView1.Location = New Point(133, 355)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(761, 421)
+        DataGridView1.Size = New Size(711, 480)
         DataGridView1.TabIndex = 118
         ' 
         ' btneliminar
         ' 
         btneliminar.Image = CType(resources.GetObject("btneliminar.Image"), Image)
         btneliminar.ImageAlign = ContentAlignment.TopCenter
-        btneliminar.Location = New Point(25, 810)
-        btneliminar.Margin = New Padding(4, 4, 4, 4)
+        btneliminar.Location = New Point(12, 648)
         btneliminar.Name = "btneliminar"
-        btneliminar.Size = New Size(108, 95)
+        btneliminar.Size = New Size(86, 76)
         btneliminar.TabIndex = 122
         btneliminar.Text = "Eliminar"
         btneliminar.TextAlign = ContentAlignment.BottomCenter
@@ -180,10 +168,9 @@ Partial Class PreMatricula
         ' 
         btnmodificar.Image = CType(resources.GetObject("btnmodificar.Image"), Image)
         btnmodificar.ImageAlign = ContentAlignment.TopCenter
-        btnmodificar.Location = New Point(25, 614)
-        btnmodificar.Margin = New Padding(4, 4, 4, 4)
+        btnmodificar.Location = New Point(12, 491)
         btnmodificar.Name = "btnmodificar"
-        btnmodificar.Size = New Size(108, 95)
+        btnmodificar.Size = New Size(86, 76)
         btnmodificar.TabIndex = 121
         btnmodificar.Text = "Modificar"
         btnmodificar.TextAlign = ContentAlignment.BottomCenter
@@ -193,10 +180,9 @@ Partial Class PreMatricula
         ' 
         btnguardar.Image = CType(resources.GetObject("btnguardar.Image"), Image)
         btnguardar.ImageAlign = ContentAlignment.TopCenter
-        btnguardar.Location = New Point(25, 415)
-        btnguardar.Margin = New Padding(4, 4, 4, 4)
+        btnguardar.Location = New Point(12, 332)
         btnguardar.Name = "btnguardar"
-        btnguardar.Size = New Size(108, 95)
+        btnguardar.Size = New Size(86, 76)
         btnguardar.TabIndex = 120
         btnguardar.Text = "Guardar"
         btnguardar.TextAlign = ContentAlignment.BottomCenter
@@ -206,10 +192,9 @@ Partial Class PreMatricula
         ' 
         btnnuevo.Image = CType(resources.GetObject("btnnuevo.Image"), Image)
         btnnuevo.ImageAlign = ContentAlignment.TopCenter
-        btnnuevo.Location = New Point(25, 226)
-        btnnuevo.Margin = New Padding(4, 4, 4, 4)
+        btnnuevo.Location = New Point(12, 181)
         btnnuevo.Name = "btnnuevo"
-        btnnuevo.Size = New Size(108, 98)
+        btnnuevo.Size = New Size(86, 78)
         btnnuevo.TabIndex = 119
         btnnuevo.Text = "Nuevo"
         btnnuevo.TextAlign = ContentAlignment.BottomCenter
@@ -218,10 +203,9 @@ Partial Class PreMatricula
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(40, 48)
-        PictureBox1.Margin = New Padding(4, 4, 4, 4)
+        PictureBox1.Location = New Point(32, 38)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(79, 69)
+        PictureBox1.Size = New Size(63, 55)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 124
         PictureBox1.TabStop = False
@@ -229,22 +213,21 @@ Partial Class PreMatricula
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(4, 2)
-        PictureBox2.Margin = New Padding(4, 4, 4, 4)
+        PictureBox2.Location = New Point(-1, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(149, 1059)
+        PictureBox2.Size = New Size(119, 847)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 123
         PictureBox2.TabStop = False
         ' 
         ' PreMatricula
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1040, 982)
+        ClientSize = New Size(856, 847)
         Controls.Add(btneliminar)
         Controls.Add(btnmodificar)
         Controls.Add(btnguardar)
@@ -263,8 +246,8 @@ Partial Class PreMatricula
         Controls.Add(Label2)
         Controls.Add(Label14)
         FormBorderStyle = FormBorderStyle.None
-        Margin = New Padding(4, 4, 4, 4)
         Name = "PreMatricula"
+        StartPosition = FormStartPosition.CenterScreen
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()

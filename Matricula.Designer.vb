@@ -59,10 +59,10 @@ Partial Class Matricula
         DataGridView1.BackgroundColor = SystemColors.ButtonFace
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridView1.GridColor = SystemColors.HighlightText
-        DataGridView1.Location = New Point(166, 284)
+        DataGridView1.Location = New Point(145, 284)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(665, 516)
+        DataGridView1.Size = New Size(684, 536)
         DataGridView1.TabIndex = 6
         ' 
         ' Label14
